@@ -48,19 +48,6 @@ namespace Beginner2D
         public event Action OnTalkedToNPC;
 
         private NonPlayerCharacter lastNonPlayerCharacter;
-
-        private void Awake()
-        {
-            //DEMO purpose only, in the tutorial, this will be set in the inspector on the player prefab.
-            //but to keep the layer settings empty, we have to do it dynamically through code
-            Helpers.RecursiveLayerSet(transform, Helpers.PlayerLayer);
-        }
-
-        private void OnEnable()
-        {
-            Helpers.RecursiveLayerSet(transform, Helpers.PlayerLayer);
-        }
-
         // Start is called before the first frame update
         void Start()
         {
