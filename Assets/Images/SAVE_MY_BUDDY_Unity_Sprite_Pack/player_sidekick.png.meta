@@ -1,0 +1,1159 @@
+fileFormatVersion: 2
+guid: 393776ecce44411429b4df057fb671cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4683752487826192270
+    second: player_sidekick_0
+  - first:
+      213: -6264142703579626639
+    second: player_sidekick_1
+  - first:
+      213: -4600952716271012448
+    second: player_sidekick_2
+  - first:
+      213: 6345307736656249551
+    second: player_sidekick_3
+  - first:
+      213: 1279918263912095894
+    second: player_sidekick_4
+  - first:
+      213: 6492909366751996324
+    second: player_sidekick_5
+  - first:
+      213: -8673844266901579860
+    second: player_sidekick_6
+  - first:
+      213: -1830792245638461325
+    second: player_sidekick_7
+  - first:
+      213: -2998456263734296877
+    second: player_sidekick_8
+  - first:
+      213: -7999532072889657401
+    second: player_sidekick_9
+  - first:
+      213: 5646504883064499590
+    second: player_sidekick_10
+  - first:
+      213: -7438160403880825849
+    second: player_sidekick_11
+  - first:
+      213: 174508613098394614
+    second: player_sidekick_12
+  - first:
+      213: -4981472937995650859
+    second: player_sidekick_13
+  - first:
+      213: -8359058417348080349
+    second: player_sidekick_14
+  - first:
+      213: 7201540720403530986
+    second: player_sidekick_15
+  - first:
+      213: -517243543418228235
+    second: player_sidekick_16
+  - first:
+      213: -8709864688675994682
+    second: player_sidekick_17
+  - first:
+      213: 4951189219965414803
+    second: player_sidekick_18
+  - first:
+      213: -54366547168423525
+    second: player_sidekick_19
+  - first:
+      213: 4194568459939515046
+    second: player_sidekick_20
+  - first:
+      213: -1546173378165543984
+    second: player_sidekick_21
+  - first:
+      213: 7781520999433580508
+    second: player_sidekick_22
+  - first:
+      213: 7454139353263286774
+    second: player_sidekick_23
+  - first:
+      213: 7915871160984874439
+    second: player_sidekick_24
+  - first:
+      213: 7201480001137388676
+    second: player_sidekick_25
+  - first:
+      213: -2899212352958786567
+    second: player_sidekick_26
+  - first:
+      213: 163694319710079522
+    second: player_sidekick_27
+  - first:
+      213: -2956730279846121476
+    second: player_sidekick_28
+  - first:
+      213: -4587622079579446566
+    second: player_sidekick_29
+  - first:
+      213: 710710369246243342
+    second: player_sidekick_30
+  - first:
+      213: 1698239854513846492
+    second: player_sidekick_31
+  - first:
+      213: -3911194781738391740
+    second: player_sidekick_32
+  - first:
+      213: -8624067000896130909
+    second: player_sidekick_33
+  - first:
+      213: -5978799087220851770
+    second: player_sidekick_34
+  - first:
+      213: 1558269080142614805
+    second: player_sidekick_35
+  - first:
+      213: 8478365952369251273
+    second: player_sidekick_36
+  - first:
+      213: -8425186716111551387
+    second: player_sidekick_37
+  - first:
+      213: 5173696130433416262
+    second: player_sidekick_38
+  - first:
+      213: -642586146832606012
+    second: player_sidekick_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player_sidekick_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 434
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278844b8de7fffeb0800000000000000
+      internalID: -4683752487826192270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 434
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17308c2666b4119a0800000000000000
+      internalID: -6264142703579626639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 434
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a53c46a1e12620c0800000000000000
+      internalID: -4600952716271012448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 434
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc20fe184cf0f0850800000000000000
+      internalID: 6345307736656249551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 386
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690e30631ee23c110800000000000000
+      internalID: 1279918263912095894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 386
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a92f0c0ba27b1a50800000000000000
+      internalID: 6492909366751996324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 386
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7d542689050a780800000000000000
+      internalID: -8673844266901579860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 386
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3780e2d0728b796e0800000000000000
+      internalID: -1830792245638461325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 338
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de72952ae75366d0800000000000000
+      internalID: -2998456263734296877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 338
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7511a86f3fbf090800000000000000
+      internalID: -7999532072889657401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 338
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d6191564a6c5e40800000000000000
+      internalID: 5646504883064499590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 338
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cae40958856c890800000000000000
+      internalID: -7438160403880825849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 290
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3d9f5b8aafb6200800000000000000
+      internalID: 174508613098394614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 290
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d83c8081c04edab0800000000000000
+      internalID: -4981472937995650859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 290
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d8a3958a8aefb80800000000000000
+      internalID: -8359058417348080349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 290
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4c92b312301f360800000000000000
+      internalID: 7201540720403530986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 242
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1313cdcb162d8f0800000000000000
+      internalID: -517243543418228235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 242
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3cfb56638502780800000000000000
+      internalID: -8709864688675994682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_18
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 242
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d28cfec5826b440800000000000000
+      internalID: 4951189219965414803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 242
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b919c54d9e9de3ff0800000000000000
+      internalID: -54366547168423525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 194
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa80c06ac9163a30800000000000000
+      internalID: 4194568459939515046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_21
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 194
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbe6492183ea8ae0800000000000000
+      internalID: -1546173378165543984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_22
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 194
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf2b77ee148dfb60800000000000000
+      internalID: 7781520999433580508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_23
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 194
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9a4818f3c627760800000000000000
+      internalID: 7454139353263286774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 146
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd234e71e2dadd60800000000000000
+      internalID: 7915871160984874439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 146
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cafdce7ebc0f360800000000000000
+      internalID: 7201480001137388676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 146
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f39775c9bde3c7d0800000000000000
+      internalID: -2899212352958786567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_27
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 146
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a8112dd1f854200800000000000000
+      internalID: 163694319710079522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_28
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 98
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff6125d97597f6d0800000000000000
+      internalID: -2956730279846121476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_29
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 98
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2adee560e7550c0800000000000000
+      internalID: -4587622079579446566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_30
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 98
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0aeb19b053fcd900800000000000000
+      internalID: 710710369246243342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_31
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 98
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd875b7662c519710800000000000000
+      internalID: 1698239854513846492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 50
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4472f138115a8b9c0800000000000000
+      internalID: -3911194781738391740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_33
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 50
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0fa6441c8215880800000000000000
+      internalID: -8624067000896130909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_34
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 50
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb75ce38e9070da0800000000000000
+      internalID: -5978799087220851770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_35
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 50
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511106ae87510a510800000000000000
+      internalID: 1558269080142614805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c35cb2d9e439a570800000000000000
+      internalID: 8478365952369251273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_37
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564c4dbf159b31b80800000000000000
+      internalID: -8425186716111551387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_38
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cfb4e1839acc740800000000000000
+      internalID: 5173696130433416262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_sidekick_39
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc9474dd431517f0800000000000000
+      internalID: -642586146832606012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      player_sidekick_0: -4683752487826192270
+      player_sidekick_1: -6264142703579626639
+      player_sidekick_10: 5646504883064499590
+      player_sidekick_11: -7438160403880825849
+      player_sidekick_12: 174508613098394614
+      player_sidekick_13: -4981472937995650859
+      player_sidekick_14: -8359058417348080349
+      player_sidekick_15: 7201540720403530986
+      player_sidekick_16: -517243543418228235
+      player_sidekick_17: -8709864688675994682
+      player_sidekick_18: 4951189219965414803
+      player_sidekick_19: -54366547168423525
+      player_sidekick_2: -4600952716271012448
+      player_sidekick_20: 4194568459939515046
+      player_sidekick_21: -1546173378165543984
+      player_sidekick_22: 7781520999433580508
+      player_sidekick_23: 7454139353263286774
+      player_sidekick_24: 7915871160984874439
+      player_sidekick_25: 7201480001137388676
+      player_sidekick_26: -2899212352958786567
+      player_sidekick_27: 163694319710079522
+      player_sidekick_28: -2956730279846121476
+      player_sidekick_29: -4587622079579446566
+      player_sidekick_3: 6345307736656249551
+      player_sidekick_30: 710710369246243342
+      player_sidekick_31: 1698239854513846492
+      player_sidekick_32: -3911194781738391740
+      player_sidekick_33: -8624067000896130909
+      player_sidekick_34: -5978799087220851770
+      player_sidekick_35: 1558269080142614805
+      player_sidekick_36: 8478365952369251273
+      player_sidekick_37: -8425186716111551387
+      player_sidekick_38: 5173696130433416262
+      player_sidekick_39: -642586146832606012
+      player_sidekick_4: 1279918263912095894
+      player_sidekick_5: 6492909366751996324
+      player_sidekick_6: -8673844266901579860
+      player_sidekick_7: -1830792245638461325
+      player_sidekick_8: -2998456263734296877
+      player_sidekick_9: -7999532072889657401
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

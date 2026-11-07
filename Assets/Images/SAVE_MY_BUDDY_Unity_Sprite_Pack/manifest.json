@@ -1,0 +1,156 @@
+[
+  {
+    "file": "player_sidekick.png",
+    "size": [
+      192,
+      480
+    ],
+    "frame_size": [
+      48,
+      48
+    ],
+    "columns": 4,
+    "rows": [
+      "idle",
+      "walk_down",
+      "walk_up",
+      "walk_left",
+      "walk_right",
+      "sprint_down",
+      "sprint_up",
+      "sprint_left",
+      "sprint_right",
+      "hit"
+    ]
+  },
+  {
+    "file": "ai_buddy_knight.png",
+    "size": [
+      192,
+      480
+    ],
+    "frame_size": [
+      48,
+      48
+    ],
+    "columns": 4,
+    "rows": [
+      "idle",
+      "walk_down",
+      "walk_up",
+      "walk_left",
+      "walk_right",
+      "sprint_down",
+      "sprint_up",
+      "sprint_left",
+      "sprint_right",
+      "hit"
+    ]
+  },
+  {
+    "file": "enemy_small_blob.png",
+    "size": [
+      192,
+      144
+    ],
+    "frame_size": [
+      48,
+      48
+    ],
+    "columns": 4,
+    "rows": [
+      "idle",
+      "move",
+      "hit"
+    ]
+  },
+  {
+    "file": "enemy_medium_thrower.png",
+    "size": [
+      192,
+      192
+    ],
+    "frame_size": [
+      48,
+      48
+    ],
+    "columns": 4,
+    "rows": [
+      "idle",
+      "move",
+      "attack",
+      "hit"
+    ]
+  },
+  {
+    "file": "enemy_large_brute.png",
+    "size": [
+      192,
+      192
+    ],
+    "frame_size": [
+      48,
+      48
+    ],
+    "columns": 4,
+    "rows": [
+      "idle",
+      "move",
+      "attack",
+      "hit"
+    ]
+  },
+  {
+    "file": "player_projectile_blue.png",
+    "size": [
+      192,
+      96
+    ],
+    "frame_size": [
+      48,
+      48
+    ],
+    "columns": 4,
+    "rows": [
+      "flight",
+      "impact"
+    ]
+  },
+  {
+    "file": "enemy_projectile_purple.png",
+    "size": [
+      192,
+      96
+    ],
+    "frame_size": [
+      48,
+      48
+    ],
+    "columns": 4,
+    "rows": [
+      "flight",
+      "impact"
+    ]
+  },
+  {
+    "file": "pickup_icons.png",
+    "size": [
+      336,
+      48
+    ],
+    "frame_size": [
+      48,
+      48
+    ],
+    "columns": 7,
+    "rows": [
+      "heart_full",
+      "heart_empty",
+      "heal_cross",
+      "key",
+      "coin",
+      "gem",
+      "potion"
+    ]
+  }
+]

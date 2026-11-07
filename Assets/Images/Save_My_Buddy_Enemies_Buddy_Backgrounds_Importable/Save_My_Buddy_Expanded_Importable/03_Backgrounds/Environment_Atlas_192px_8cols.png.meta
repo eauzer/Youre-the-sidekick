@@ -1,0 +1,3577 @@
+fileFormatVersion: 2
+guid: d5d69a29f249d2f4b8398f3459fd065b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9212632558432465184
+    second: Environment_Atlas_192px_8cols_0
+  - first:
+      213: -513045727392174125
+    second: Environment_Atlas_192px_8cols_1
+  - first:
+      213: 5761939241591533621
+    second: Environment_Atlas_192px_8cols_2
+  - first:
+      213: 4175871403808944698
+    second: Environment_Atlas_192px_8cols_3
+  - first:
+      213: 5973438928894087000
+    second: Environment_Atlas_192px_8cols_4
+  - first:
+      213: 4548108055305124224
+    second: Environment_Atlas_192px_8cols_5
+  - first:
+      213: 6089983379511275911
+    second: Environment_Atlas_192px_8cols_6
+  - first:
+      213: -2362717494228634052
+    second: Environment_Atlas_192px_8cols_7
+  - first:
+      213: -6496647604358150596
+    second: Environment_Atlas_192px_8cols_8
+  - first:
+      213: 8972721663456010564
+    second: Environment_Atlas_192px_8cols_9
+  - first:
+      213: 1808720936597431350
+    second: Environment_Atlas_192px_8cols_10
+  - first:
+      213: 4885213168776058922
+    second: Environment_Atlas_192px_8cols_11
+  - first:
+      213: -3360972965967587574
+    second: Environment_Atlas_192px_8cols_12
+  - first:
+      213: -1879984589020489869
+    second: Environment_Atlas_192px_8cols_13
+  - first:
+      213: 595174531688117795
+    second: Environment_Atlas_192px_8cols_14
+  - first:
+      213: -1240863909562009328
+    second: Environment_Atlas_192px_8cols_15
+  - first:
+      213: 965919254118803597
+    second: Environment_Atlas_192px_8cols_16
+  - first:
+      213: 4549785550953358602
+    second: Environment_Atlas_192px_8cols_17
+  - first:
+      213: 8518504975350970814
+    second: Environment_Atlas_192px_8cols_18
+  - first:
+      213: -5705684249567245966
+    second: Environment_Atlas_192px_8cols_19
+  - first:
+      213: -7350489892253289187
+    second: Environment_Atlas_192px_8cols_20
+  - first:
+      213: -3732719063326211559
+    second: Environment_Atlas_192px_8cols_21
+  - first:
+      213: 8639189740211544085
+    second: Environment_Atlas_192px_8cols_22
+  - first:
+      213: 1654353535417435374
+    second: Environment_Atlas_192px_8cols_23
+  - first:
+      213: -3337990858580587060
+    second: Environment_Atlas_192px_8cols_24
+  - first:
+      213: -8890329186870369883
+    second: Environment_Atlas_192px_8cols_25
+  - first:
+      213: 3554383942859683524
+    second: Environment_Atlas_192px_8cols_26
+  - first:
+      213: -4373647921488238735
+    second: Environment_Atlas_192px_8cols_27
+  - first:
+      213: -667889609219881818
+    second: Environment_Atlas_192px_8cols_28
+  - first:
+      213: -3166130495404829983
+    second: Environment_Atlas_192px_8cols_29
+  - first:
+      213: 5248539252666215029
+    second: Environment_Atlas_192px_8cols_30
+  - first:
+      213: 1389931759204171248
+    second: Environment_Atlas_192px_8cols_31
+  - first:
+      213: 3683886730140055892
+    second: Environment_Atlas_192px_8cols_32
+  - first:
+      213: 1183182399775384410
+    second: Environment_Atlas_192px_8cols_33
+  - first:
+      213: 1926893091181656832
+    second: Environment_Atlas_192px_8cols_34
+  - first:
+      213: 5216044273969269698
+    second: Environment_Atlas_192px_8cols_35
+  - first:
+      213: -2278300333910211850
+    second: Environment_Atlas_192px_8cols_36
+  - first:
+      213: -2162187124934536537
+    second: Environment_Atlas_192px_8cols_37
+  - first:
+      213: 1964310253189282886
+    second: Environment_Atlas_192px_8cols_38
+  - first:
+      213: -8503955992241039416
+    second: Environment_Atlas_192px_8cols_39
+  - first:
+      213: 5278908959480263933
+    second: Environment_Atlas_192px_8cols_40
+  - first:
+      213: 8997691742343381973
+    second: Environment_Atlas_192px_8cols_41
+  - first:
+      213: 7992365680769780904
+    second: Environment_Atlas_192px_8cols_42
+  - first:
+      213: 5026808943522344932
+    second: Environment_Atlas_192px_8cols_43
+  - first:
+      213: -5739699297361147973
+    second: Environment_Atlas_192px_8cols_44
+  - first:
+      213: -8406700314707762132
+    second: Environment_Atlas_192px_8cols_45
+  - first:
+      213: 5502513218960270222
+    second: Environment_Atlas_192px_8cols_46
+  - first:
+      213: -2345621315791721297
+    second: Environment_Atlas_192px_8cols_47
+  - first:
+      213: 6080814036224652916
+    second: Environment_Atlas_192px_8cols_48
+  - first:
+      213: -7655700775927016510
+    second: Environment_Atlas_192px_8cols_49
+  - first:
+      213: 8637597956334099397
+    second: Environment_Atlas_192px_8cols_50
+  - first:
+      213: 562780172732109119
+    second: Environment_Atlas_192px_8cols_51
+  - first:
+      213: -7696100328805266408
+    second: Environment_Atlas_192px_8cols_52
+  - first:
+      213: 4077173936124825441
+    second: Environment_Atlas_192px_8cols_53
+  - first:
+      213: -5497326083595791656
+    second: Environment_Atlas_192px_8cols_54
+  - first:
+      213: 4689571105327819857
+    second: Environment_Atlas_192px_8cols_55
+  - first:
+      213: -4848970287948135771
+    second: Environment_Atlas_192px_8cols_56
+  - first:
+      213: 3171229352556431764
+    second: Environment_Atlas_192px_8cols_57
+  - first:
+      213: 2116087983221747035
+    second: Environment_Atlas_192px_8cols_58
+  - first:
+      213: -5957770235023203786
+    second: Environment_Atlas_192px_8cols_59
+  - first:
+      213: 617631629003855307
+    second: Environment_Atlas_192px_8cols_60
+  - first:
+      213: -6065263516648889776
+    second: Environment_Atlas_192px_8cols_61
+  - first:
+      213: 7867119082776673352
+    second: Environment_Atlas_192px_8cols_62
+  - first:
+      213: -5980393399023322675
+    second: Environment_Atlas_192px_8cols_63
+  - first:
+      213: 7165155693612665522
+    second: Environment_Atlas_192px_8cols_64
+  - first:
+      213: 4790663690827734878
+    second: Environment_Atlas_192px_8cols_65
+  - first:
+      213: -7245555036152459309
+    second: Environment_Atlas_192px_8cols_66
+  - first:
+      213: -401234293069246923
+    second: Environment_Atlas_192px_8cols_67
+  - first:
+      213: 3355952805483574012
+    second: Environment_Atlas_192px_8cols_68
+  - first:
+      213: -492155859085360514
+    second: Environment_Atlas_192px_8cols_69
+  - first:
+      213: 7760030173382608184
+    second: Environment_Atlas_192px_8cols_70
+  - first:
+      213: -6211938953985363490
+    second: Environment_Atlas_192px_8cols_71
+  - first:
+      213: -8551508738707677358
+    second: Environment_Atlas_192px_8cols_72
+  - first:
+      213: 7365965341198143947
+    second: Environment_Atlas_192px_8cols_73
+  - first:
+      213: -7731457155525901999
+    second: Environment_Atlas_192px_8cols_74
+  - first:
+      213: -818839867265422471
+    second: Environment_Atlas_192px_8cols_75
+  - first:
+      213: -7913872102634654384
+    second: Environment_Atlas_192px_8cols_76
+  - first:
+      213: 5916916025087577155
+    second: Environment_Atlas_192px_8cols_77
+  - first:
+      213: 7250262849337125223
+    second: Environment_Atlas_192px_8cols_78
+  - first:
+      213: -4303862382438378528
+    second: Environment_Atlas_192px_8cols_79
+  - first:
+      213: 6566224016296977850
+    second: Environment_Atlas_192px_8cols_80
+  - first:
+      213: -5965041959266124007
+    second: Environment_Atlas_192px_8cols_81
+  - first:
+      213: 7532786373934388656
+    second: Environment_Atlas_192px_8cols_82
+  - first:
+      213: 3888393886265021371
+    second: Environment_Atlas_192px_8cols_83
+  - first:
+      213: -5386163793378589841
+    second: Environment_Atlas_192px_8cols_84
+  - first:
+      213: 8738478444732605517
+    second: Environment_Atlas_192px_8cols_85
+  - first:
+      213: -13790661443724106
+    second: Environment_Atlas_192px_8cols_86
+  - first:
+      213: -3356933454346443416
+    second: Environment_Atlas_192px_8cols_87
+  - first:
+      213: -2164951656107189254
+    second: Environment_Atlas_192px_8cols_88
+  - first:
+      213: 7210354636477998838
+    second: Environment_Atlas_192px_8cols_89
+  - first:
+      213: 8085381488373491370
+    second: Environment_Atlas_192px_8cols_90
+  - first:
+      213: -5040551730760515780
+    second: Environment_Atlas_192px_8cols_91
+  - first:
+      213: 2257270005088394623
+    second: Environment_Atlas_192px_8cols_92
+  - first:
+      213: -997176507699737926
+    second: Environment_Atlas_192px_8cols_93
+  - first:
+      213: -370584515063576782
+    second: Environment_Atlas_192px_8cols_94
+  - first:
+      213: -5352373836320220245
+    second: Environment_Atlas_192px_8cols_95
+  - first:
+      213: -4447090836586431569
+    second: Environment_Atlas_192px_8cols_96
+  - first:
+      213: -8547313883581650820
+    second: Environment_Atlas_192px_8cols_97
+  - first:
+      213: 6643862828191945296
+    second: Environment_Atlas_192px_8cols_98
+  - first:
+      213: -1184856558796437101
+    second: Environment_Atlas_192px_8cols_99
+  - first:
+      213: -4815279847759384565
+    second: Environment_Atlas_192px_8cols_100
+  - first:
+      213: -417834552541319538
+    second: Environment_Atlas_192px_8cols_101
+  - first:
+      213: -3207350412637048873
+    second: Environment_Atlas_192px_8cols_102
+  - first:
+      213: -1874948703029212340
+    second: Environment_Atlas_192px_8cols_103
+  - first:
+      213: 6502642052894378458
+    second: Environment_Atlas_192px_8cols_104
+  - first:
+      213: 8477361613238541505
+    second: Environment_Atlas_192px_8cols_105
+  - first:
+      213: 801541374258532290
+    second: Environment_Atlas_192px_8cols_106
+  - first:
+      213: -3916872940408792703
+    second: Environment_Atlas_192px_8cols_107
+  - first:
+      213: 8637243375822171359
+    second: Environment_Atlas_192px_8cols_108
+  - first:
+      213: -2293264726516350295
+    second: Environment_Atlas_192px_8cols_109
+  - first:
+      213: 8729493243342272798
+    second: Environment_Atlas_192px_8cols_110
+  - first:
+      213: 8479451894704122738
+    second: Environment_Atlas_192px_8cols_111
+  - first:
+      213: 7071448760219964780
+    second: Environment_Atlas_192px_8cols_112
+  - first:
+      213: -2323272542072240614
+    second: Environment_Atlas_192px_8cols_113
+  - first:
+      213: -7794767692614640232
+    second: Environment_Atlas_192px_8cols_114
+  - first:
+      213: 746379494115957758
+    second: Environment_Atlas_192px_8cols_115
+  - first:
+      213: -5154760253268437666
+    second: Environment_Atlas_192px_8cols_116
+  - first:
+      213: -5305588954019897324
+    second: Environment_Atlas_192px_8cols_117
+  - first:
+      213: -4500108788221469157
+    second: Environment_Atlas_192px_8cols_118
+  - first:
+      213: -9144984703583619519
+    second: Environment_Atlas_192px_8cols_119
+  - first:
+      213: -6918202114845740609
+    second: Environment_Atlas_192px_8cols_120
+  - first:
+      213: -8670184525624862720
+    second: Environment_Atlas_192px_8cols_121
+  - first:
+      213: 5608808168816995327
+    second: Environment_Atlas_192px_8cols_122
+  - first:
+      213: 3917938046683482249
+    second: Environment_Atlas_192px_8cols_123
+  - first:
+      213: 2964399892657275187
+    second: Environment_Atlas_192px_8cols_124
+  - first:
+      213: 6753351324531880155
+    second: Environment_Atlas_192px_8cols_125
+  - first:
+      213: 7716719469285415745
+    second: Environment_Atlas_192px_8cols_126
+  - first:
+      213: 3812603240047261987
+    second: Environment_Atlas_192px_8cols_127
+  - first:
+      213: -3704724121539211257
+    second: Environment_Atlas_192px_8cols_128
+  - first:
+      213: -4158867051063277796
+    second: Environment_Atlas_192px_8cols_129
+  - first:
+      213: -5519568491048125573
+    second: Environment_Atlas_192px_8cols_130
+  - first:
+      213: 3278311468045726020
+    second: Environment_Atlas_192px_8cols_131
+  - first:
+      213: -1877130192045853970
+    second: Environment_Atlas_192px_8cols_132
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 3124
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee4f6caf77262080800000000000000
+      internalID: -9212632558432465184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 3124
+        width: 119
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfe14111ab41e8f0800000000000000
+      internalID: -513045727392174125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 3124
+        width: 111
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5307270563586ff40800000000000000
+      internalID: 5761939241591533621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_3
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 3124
+        width: 109
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a327eb3caeca3f930800000000000000
+      internalID: 4175871403808944698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_4
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 3124
+        width: 144
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fc834ae0be5e250800000000000000
+      internalID: 5973438928894087000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_5
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 3124
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089fd8ced202e1f30800000000000000
+      internalID: 4548108055305124224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_6
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 3122
+        width: 54
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7817dc71e97f38450800000000000000
+      internalID: 6089983379511275911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_7
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 3131
+        width: 30
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36b6eb05f0f53fd0800000000000000
+      internalID: -2362717494228634052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2940
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36075fac6547d5a0800000000000000
+      internalID: -6496647604358150596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2889
+        width: 164
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4416fba30d2858c70800000000000000
+      internalID: 8972721663456010564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2946
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634a3bbdb1ed91910800000000000000
+      internalID: 1808720936597431350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_11
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2940
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2815f87e73cbc340800000000000000
+      internalID: 4885213168776058922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_12
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 2939
+        width: 25
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a079fc705ec6b51d0800000000000000
+      internalID: -3360972965967587574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_13
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 2939
+        width: 26
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37799341af3f8e5e0800000000000000
+      internalID: -1879984589020489869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_14
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 2918
+        width: 72
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32631ac451c724800800000000000000
+      internalID: 595174531688117795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_15
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 2947
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01934ff39d097cee0800000000000000
+      internalID: -1240863909562009328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2748
+        width: 31
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d882677a172a76d00800000000000000
+      internalID: 965919254118803597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2755
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05a7c05ad5142f30800000000000000
+      internalID: 4549785550953358602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 2716
+        width: 80
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb93131642fc73670800000000000000
+      internalID: 8518504975350970814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_19
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 2751
+        width: 43
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279c000b76651d0b0800000000000000
+      internalID: -5705684249567245966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_20
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2757
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15b4273360ddf990800000000000000
+      internalID: -7350489892253289187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_21
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 2759
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912cc18e9c7b23cc0800000000000000
+      internalID: -3732719063326211559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_22
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 2771
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510228cdb4194e770800000000000000
+      internalID: 8639189740211544085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_23
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2751
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4c77b76c175f610800000000000000
+      internalID: 1654353535417435374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2570
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd8dc2eff21da1d0800000000000000
+      internalID: -3337990858580587060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2573
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1ed4025b43f9480800000000000000
+      internalID: -8890329186870369883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_26
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 2566
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6f0853d55b35130800000000000000
+      internalID: 3554383942859683524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_27
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 2574
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1776113536ead43c0800000000000000
+      internalID: -4373647921488238735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_28
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 2570
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4464560fd2bb6f0800000000000000
+      internalID: -667889609219881818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_29
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 2550
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e21ddcd615af04d0800000000000000
+      internalID: -3166130495404829983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_30
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 2547
+        width: 61
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a2dd074ae86d840800000000000000
+      internalID: 5248539252666215029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_31
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 2548
+        width: 73
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdf56122970a4310800000000000000
+      internalID: 1389931759204171248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2353
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459f5c6867bcf1330800000000000000
+      internalID: 3683886730140055892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_33
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2360
+        width: 47
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a532b13bf128b6010800000000000000
+      internalID: 1183182399775384410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_34
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 2359
+        width: 68
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b790cae03bdba10800000000000000
+      internalID: 1926893091181656832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_35
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 2360
+        width: 107
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb06a2a1ac136840800000000000000
+      internalID: 5216044273969269698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_36
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 2359
+        width: 76
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2c0a1dae9d160e0800000000000000
+      internalID: -2278300333910211850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_37
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 2356
+        width: 103
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a29a50044e5ef1e0800000000000000
+      internalID: -2162187124934536537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_38
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 2385
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c310694c1a24b10800000000000000
+      internalID: 1964310253189282886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_39
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 2382
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c71be8b411ebf980800000000000000
+      internalID: -8503955992241039416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_40
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2190
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4b273dab3724940800000000000000
+      internalID: 5278908959480263933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_41
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2190
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3c7d4c7f83edc70800000000000000
+      internalID: 8997691742343381973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_42
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2190
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac4e45cd369aee60800000000000000
+      internalID: 7992365680769780904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_43
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 2190
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efe768d910d2c540800000000000000
+      internalID: 5026808943522344932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_44
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 2191
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7ca3736ed7850b0800000000000000
+      internalID: -5739699297361147973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_45
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 2192
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24eda8ba96655b80800000000000000
+      internalID: -8406700314707762132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_46
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 2191
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83a40c7e9adc5c40800000000000000
+      internalID: 5502513218960270222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_47
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 2176
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac66a647dda27fd0800000000000000
+      internalID: -2345621315791721297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_48
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1978
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476316ef524636450800000000000000
+      internalID: 6080814036224652916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_49
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1981
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c31038b4bc71c590800000000000000
+      internalID: -7655700775927016510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_50
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1992
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb1febc399eed770800000000000000
+      internalID: 8637597956334099397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_51
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1987
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31945ad5956fc700800000000000000
+      internalID: 562780172732109119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_52
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1970
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c8bc1d685f13590800000000000000
+      internalID: -7696100328805266408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_53
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1992
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f8336d718059830800000000000000
+      internalID: 4077173936124825441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_54
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1973
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d298c49d0395b3b0800000000000000
+      internalID: -5497326083595791656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_55
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1974
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c200ae214b41140800000000000000
+      internalID: 4689571105327819857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_56
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1781
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a28d6cc63ff4bcb0800000000000000
+      internalID: -4848970287948135771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_57
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1782
+        width: 95
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4990b645b48720c20800000000000000
+      internalID: 3171229352556431764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_58
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1805
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5da7692fcadd5d10800000000000000
+      internalID: 2116087983221747035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_59
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1803
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632eb00798fb15da0800000000000000
+      internalID: -5957770235023203786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_60
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1802
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc512d8b1b4429800800000000000000
+      internalID: 617631629003855307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_61
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1802
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052a10d77fad3dba0800000000000000
+      internalID: -6065263516648889776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_62
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1783
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cb99ebf1f9d2d60800000000000000
+      internalID: 7867119082776673352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_63
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1805
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9bf1a93ef510da0800000000000000
+      internalID: -5980393399023322675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_64
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1612
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba8626042fbf6360800000000000000
+      internalID: 7165155693612665522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_65
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1612
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f162aae3bdb7240800000000000000
+      internalID: 4790663690827734878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_66
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1585
+        width: 124
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df079d451e927b90800000000000000
+      internalID: -7245555036152459309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_67
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1586
+        width: 54
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e07e949878e6af0800000000000000
+      internalID: -401234293069246923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_68
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1586
+        width: 69
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2f2d5cb4db29e20800000000000000
+      internalID: 3355952805483574012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_69
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1549
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72071d8ad28b29f0800000000000000
+      internalID: -492155859085360514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_70
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1592
+        width: 24
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83588ca045a21bb60800000000000000
+      internalID: 7760030173382608184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_71
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1597
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed17a410f62cac9a0800000000000000
+      internalID: -6211938953985363490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_72
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1410
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f1ea72c10f25980800000000000000
+      internalID: -8551508738707677358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_73
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1375
+        width: 140
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc154f5837a293660800000000000000
+      internalID: 7365965341198143947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_74
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1422
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1510ab81ea854b490800000000000000
+      internalID: -7731457155525901999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_75
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1425
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b67b7aa75e2a4f0800000000000000
+      internalID: -818839867265422471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_76
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1426
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055769c80474c2290800000000000000
+      internalID: -7913872102634654384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_77
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1425
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c492196cb1d1250800000000000000
+      internalID: 5916916025087577155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_78
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1427
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76963fed5ab1e9460800000000000000
+      internalID: 7250262849337125223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_79
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1415
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3189c47fb9544c0800000000000000
+      internalID: -4303862382438378528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_80
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1236
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5250714f9ef1b50800000000000000
+      internalID: 6566224016296977850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_81
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1223
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f74a331f9e73da0800000000000000
+      internalID: -5965041959266124007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_82
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1232
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b51343fb45d98860800000000000000
+      internalID: 7532786373934388656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_83
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1233
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb390a153a956f530800000000000000
+      internalID: 3888393886265021371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_84
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1218
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63499921908045b0800000000000000
+      internalID: -5386163793378589841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_85
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1230
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44e1b7d8df454970800000000000000
+      internalID: 8738478444732605517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_86
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1218
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcdd6b67710fcff0800000000000000
+      internalID: -13790661443724106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_87
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1229
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8652e0f1fc6c961d0800000000000000
+      internalID: -3356933454346443416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_88
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1027
+        width: 91
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb56dd60fb84f1e0800000000000000
+      internalID: -2164951656107189254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_89
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1027
+        width: 87
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6acdbf653501460800000000000000
+      internalID: 7210354636477998838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_90
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1028
+        width: 77
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6650020ab053070800000000000000
+      internalID: 8085381488373491370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_91
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1028
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ff90828ec5c0ab0800000000000000
+      internalID: -5040551730760515780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_92
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1034
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d107f2c1f635f10800000000000000
+      internalID: 2257270005088394623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_93
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1036
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba4130ef315922f0800000000000000
+      internalID: -997176507699737926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_94
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1033
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2370064d85b6bdaf0800000000000000
+      internalID: -370584515063576782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_95
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1029
+        width: 97
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babd90d9a5c88b5b0800000000000000
+      internalID: -5352373836320220245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_96
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 845
+        width: 107
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabfe512272c842c0800000000000000
+      internalID: -4447090836586431569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_97
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 838
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78e959fe47d16980800000000000000
+      internalID: -8547313883581650820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_98
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0529dc2aa0eb33c50800000000000000
+      internalID: 6643862828191945296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_99
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 843
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3998527cc3b8e8fe0800000000000000
+      internalID: -1184856558796437101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_100
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 844
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00743cad70bc2db0800000000000000
+      internalID: -4815279847759384565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_101
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 845
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ee3e030bd833af0800000000000000
+      internalID: -417834552541319538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_102
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 842
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfe0900bc33d73d0800000000000000
+      internalID: -3207350412637048873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_103
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 845
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b4dd7a618daf5e0800000000000000
+      internalID: -1874948703029212340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_104
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 656
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad94940ae760e3a50800000000000000
+      internalID: 6502642052894378458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_105
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 657
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc9d95e873a5a570800000000000000
+      internalID: 8477361613238541505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_106
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 658
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf457512a5af1b00800000000000000
+      internalID: 801541374258532290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_107
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 629
+        width: 152
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189189c20d874a9c0800000000000000
+      internalID: -3916872940408792703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_108
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 628
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdce9769617add770800000000000000
+      internalID: 8637243375822171359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_109
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 630
+        width: 109
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a24f08a1efac20e0800000000000000
+      internalID: -2293264726516350295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_110
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 653
+        width: 107
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19b69e9ad3652970800000000000000
+      internalID: 8729493243342272798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_111
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 655
+        width: 102
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b2ad972901da570800000000000000
+      internalID: 8479451894704122738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_112
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 443
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6599486e25d22260800000000000000
+      internalID: 7071448760219964780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_113
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 463
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a168d55aee312cfd0800000000000000
+      internalID: -2323272542072240614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_114
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 446
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d530ff41c63d390800000000000000
+      internalID: -7794767692614640232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_115
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 450
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbda66023cab5a00800000000000000
+      internalID: 746379494115957758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_116
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 452
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55d1a95cdc9678b0800000000000000
+      internalID: -5154760253268437666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_117
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 463
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410686fd4f2ce56b0800000000000000
+      internalID: -5305588954019897324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_118
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 462
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e127356e66c81c0800000000000000
+      internalID: -4500108788221469157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_119
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 462
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14674824ddc761180800000000000000
+      internalID: -9144984703583619519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_120
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 266
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1734ca4db9dff90800000000000000
+      internalID: -6918202114845740609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_121
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 269
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0089a0d4c115da780800000000000000
+      internalID: -8670184525624862720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_122
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 272
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb65a3105d76dd40800000000000000
+      internalID: 5608808168816995327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_123
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 273
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9888e8435ef4f5630800000000000000
+      internalID: 3917938046683482249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_124
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 266
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3310b0e0ff9a32920800000000000000
+      internalID: 2964399892657275187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_125
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 266
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0f226bf39b8bd50800000000000000
+      internalID: 6753351324531880155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_126
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 262
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b191ee87b471b60800000000000000
+      internalID: 7716719469285415745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_127
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 266
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3293580627619e430800000000000000
+      internalID: 3812603240047261987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_128
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 75
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70095d83a0d269cc0800000000000000
+      internalID: -3704724121539211257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_129
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 73
+        width: 102
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c170c41a37cb846c0800000000000000
+      internalID: -4158867051063277796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_130
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 77
+        width: 107
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b33a983bd8663b0800000000000000
+      internalID: -5519568491048125573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_131
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 77
+        width: 75
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44174f339e6ee7d20800000000000000
+      internalID: 3278311468045726020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment_Atlas_192px_8cols_132
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 81
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee232f9290813f5e0800000000000000
+      internalID: -1877130192045853970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Environment_Atlas_192px_8cols_0: -9212632558432465184
+      Environment_Atlas_192px_8cols_1: -513045727392174125
+      Environment_Atlas_192px_8cols_10: 1808720936597431350
+      Environment_Atlas_192px_8cols_100: -4815279847759384565
+      Environment_Atlas_192px_8cols_101: -417834552541319538
+      Environment_Atlas_192px_8cols_102: -3207350412637048873
+      Environment_Atlas_192px_8cols_103: -1874948703029212340
+      Environment_Atlas_192px_8cols_104: 6502642052894378458
+      Environment_Atlas_192px_8cols_105: 8477361613238541505
+      Environment_Atlas_192px_8cols_106: 801541374258532290
+      Environment_Atlas_192px_8cols_107: -3916872940408792703
+      Environment_Atlas_192px_8cols_108: 8637243375822171359
+      Environment_Atlas_192px_8cols_109: -2293264726516350295
+      Environment_Atlas_192px_8cols_11: 4885213168776058922
+      Environment_Atlas_192px_8cols_110: 8729493243342272798
+      Environment_Atlas_192px_8cols_111: 8479451894704122738
+      Environment_Atlas_192px_8cols_112: 7071448760219964780
+      Environment_Atlas_192px_8cols_113: -2323272542072240614
+      Environment_Atlas_192px_8cols_114: -7794767692614640232
+      Environment_Atlas_192px_8cols_115: 746379494115957758
+      Environment_Atlas_192px_8cols_116: -5154760253268437666
+      Environment_Atlas_192px_8cols_117: -5305588954019897324
+      Environment_Atlas_192px_8cols_118: -4500108788221469157
+      Environment_Atlas_192px_8cols_119: -9144984703583619519
+      Environment_Atlas_192px_8cols_12: -3360972965967587574
+      Environment_Atlas_192px_8cols_120: -6918202114845740609
+      Environment_Atlas_192px_8cols_121: -8670184525624862720
+      Environment_Atlas_192px_8cols_122: 5608808168816995327
+      Environment_Atlas_192px_8cols_123: 3917938046683482249
+      Environment_Atlas_192px_8cols_124: 2964399892657275187
+      Environment_Atlas_192px_8cols_125: 6753351324531880155
+      Environment_Atlas_192px_8cols_126: 7716719469285415745
+      Environment_Atlas_192px_8cols_127: 3812603240047261987
+      Environment_Atlas_192px_8cols_128: -3704724121539211257
+      Environment_Atlas_192px_8cols_129: -4158867051063277796
+      Environment_Atlas_192px_8cols_13: -1879984589020489869
+      Environment_Atlas_192px_8cols_130: -5519568491048125573
+      Environment_Atlas_192px_8cols_131: 3278311468045726020
+      Environment_Atlas_192px_8cols_132: -1877130192045853970
+      Environment_Atlas_192px_8cols_14: 595174531688117795
+      Environment_Atlas_192px_8cols_15: -1240863909562009328
+      Environment_Atlas_192px_8cols_16: 965919254118803597
+      Environment_Atlas_192px_8cols_17: 4549785550953358602
+      Environment_Atlas_192px_8cols_18: 8518504975350970814
+      Environment_Atlas_192px_8cols_19: -5705684249567245966
+      Environment_Atlas_192px_8cols_2: 5761939241591533621
+      Environment_Atlas_192px_8cols_20: -7350489892253289187
+      Environment_Atlas_192px_8cols_21: -3732719063326211559
+      Environment_Atlas_192px_8cols_22: 8639189740211544085
+      Environment_Atlas_192px_8cols_23: 1654353535417435374
+      Environment_Atlas_192px_8cols_24: -3337990858580587060
+      Environment_Atlas_192px_8cols_25: -8890329186870369883
+      Environment_Atlas_192px_8cols_26: 3554383942859683524
+      Environment_Atlas_192px_8cols_27: -4373647921488238735
+      Environment_Atlas_192px_8cols_28: -667889609219881818
+      Environment_Atlas_192px_8cols_29: -3166130495404829983
+      Environment_Atlas_192px_8cols_3: 4175871403808944698
+      Environment_Atlas_192px_8cols_30: 5248539252666215029
+      Environment_Atlas_192px_8cols_31: 1389931759204171248
+      Environment_Atlas_192px_8cols_32: 3683886730140055892
+      Environment_Atlas_192px_8cols_33: 1183182399775384410
+      Environment_Atlas_192px_8cols_34: 1926893091181656832
+      Environment_Atlas_192px_8cols_35: 5216044273969269698
+      Environment_Atlas_192px_8cols_36: -2278300333910211850
+      Environment_Atlas_192px_8cols_37: -2162187124934536537
+      Environment_Atlas_192px_8cols_38: 1964310253189282886
+      Environment_Atlas_192px_8cols_39: -8503955992241039416
+      Environment_Atlas_192px_8cols_4: 5973438928894087000
+      Environment_Atlas_192px_8cols_40: 5278908959480263933
+      Environment_Atlas_192px_8cols_41: 8997691742343381973
+      Environment_Atlas_192px_8cols_42: 7992365680769780904
+      Environment_Atlas_192px_8cols_43: 5026808943522344932
+      Environment_Atlas_192px_8cols_44: -5739699297361147973
+      Environment_Atlas_192px_8cols_45: -8406700314707762132
+      Environment_Atlas_192px_8cols_46: 5502513218960270222
+      Environment_Atlas_192px_8cols_47: -2345621315791721297
+      Environment_Atlas_192px_8cols_48: 6080814036224652916
+      Environment_Atlas_192px_8cols_49: -7655700775927016510
+      Environment_Atlas_192px_8cols_5: 4548108055305124224
+      Environment_Atlas_192px_8cols_50: 8637597956334099397
+      Environment_Atlas_192px_8cols_51: 562780172732109119
+      Environment_Atlas_192px_8cols_52: -7696100328805266408
+      Environment_Atlas_192px_8cols_53: 4077173936124825441
+      Environment_Atlas_192px_8cols_54: -5497326083595791656
+      Environment_Atlas_192px_8cols_55: 4689571105327819857
+      Environment_Atlas_192px_8cols_56: -4848970287948135771
+      Environment_Atlas_192px_8cols_57: 3171229352556431764
+      Environment_Atlas_192px_8cols_58: 2116087983221747035
+      Environment_Atlas_192px_8cols_59: -5957770235023203786
+      Environment_Atlas_192px_8cols_6: 6089983379511275911
+      Environment_Atlas_192px_8cols_60: 617631629003855307
+      Environment_Atlas_192px_8cols_61: -6065263516648889776
+      Environment_Atlas_192px_8cols_62: 7867119082776673352
+      Environment_Atlas_192px_8cols_63: -5980393399023322675
+      Environment_Atlas_192px_8cols_64: 7165155693612665522
+      Environment_Atlas_192px_8cols_65: 4790663690827734878
+      Environment_Atlas_192px_8cols_66: -7245555036152459309
+      Environment_Atlas_192px_8cols_67: -401234293069246923
+      Environment_Atlas_192px_8cols_68: 3355952805483574012
+      Environment_Atlas_192px_8cols_69: -492155859085360514
+      Environment_Atlas_192px_8cols_7: -2362717494228634052
+      Environment_Atlas_192px_8cols_70: 7760030173382608184
+      Environment_Atlas_192px_8cols_71: -6211938953985363490
+      Environment_Atlas_192px_8cols_72: -8551508738707677358
+      Environment_Atlas_192px_8cols_73: 7365965341198143947
+      Environment_Atlas_192px_8cols_74: -7731457155525901999
+      Environment_Atlas_192px_8cols_75: -818839867265422471
+      Environment_Atlas_192px_8cols_76: -7913872102634654384
+      Environment_Atlas_192px_8cols_77: 5916916025087577155
+      Environment_Atlas_192px_8cols_78: 7250262849337125223
+      Environment_Atlas_192px_8cols_79: -4303862382438378528
+      Environment_Atlas_192px_8cols_8: -6496647604358150596
+      Environment_Atlas_192px_8cols_80: 6566224016296977850
+      Environment_Atlas_192px_8cols_81: -5965041959266124007
+      Environment_Atlas_192px_8cols_82: 7532786373934388656
+      Environment_Atlas_192px_8cols_83: 3888393886265021371
+      Environment_Atlas_192px_8cols_84: -5386163793378589841
+      Environment_Atlas_192px_8cols_85: 8738478444732605517
+      Environment_Atlas_192px_8cols_86: -13790661443724106
+      Environment_Atlas_192px_8cols_87: -3356933454346443416
+      Environment_Atlas_192px_8cols_88: -2164951656107189254
+      Environment_Atlas_192px_8cols_89: 7210354636477998838
+      Environment_Atlas_192px_8cols_9: 8972721663456010564
+      Environment_Atlas_192px_8cols_90: 8085381488373491370
+      Environment_Atlas_192px_8cols_91: -5040551730760515780
+      Environment_Atlas_192px_8cols_92: 2257270005088394623
+      Environment_Atlas_192px_8cols_93: -997176507699737926
+      Environment_Atlas_192px_8cols_94: -370584515063576782
+      Environment_Atlas_192px_8cols_95: -5352373836320220245
+      Environment_Atlas_192px_8cols_96: -4447090836586431569
+      Environment_Atlas_192px_8cols_97: -8547313883581650820
+      Environment_Atlas_192px_8cols_98: 6643862828191945296
+      Environment_Atlas_192px_8cols_99: -1184856558796437101
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
