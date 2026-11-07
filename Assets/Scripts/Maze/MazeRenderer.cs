@@ -4,7 +4,8 @@ using UnityEngine;
 public class MazeRenderer : MonoBehaviour
 {
     [SerializeField] private GameObject floorPrefab;
-    [SerializeField] private GameObject wallPrefab;
+    [SerializeField] private GameObject outerWallPrefab;
+    [SerializeField] private GameObject innerWallPrefab;
     [SerializeField, Min(0.01f)] private float cellSize = 1f;
     [SerializeField] private MazeGenerator mazeGenerator;
     [SerializeField] private Transform generatedMazeParent;
@@ -87,14 +88,18 @@ public class MazeRenderer : MonoBehaviour
             {
                 Vector2Int gridPosition = new Vector2Int(x, y);
                 bool walkable = mazeGenerator.WalkableGrid[x, y];
-                GameObject prefab = walkable ? floorPrefab : wallPrefab;
+                bool isOuterWall = !walkable && IsOuterWall(x, y);
+                GameObject prefab = walkable
+                    ? floorPrefab
+                    : isOuterWall ? outerWallPrefab : innerWallPrefab;
                 Vector3 worldPosition = mazeGenerator.GridToWorld(gridPosition);
 
                 GameObject tile = prefab != null
                     ? Instantiate(prefab, worldPosition, Quaternion.identity, generatedMazeParent)
                     : CreateFallbackTile(walkable, worldPosition);
 
-                tile.name = (walkable ? "Floor_" : "Wall_") + x + "_" + y;
+                string tileType = walkable ? "Floor_" : isOuterWall ? "Wall_Outer_" : "Wall_Inner_";
+                tile.name = tileType + x + "_" + y;
                 FitTileToCell(tile, spacing, worldPosition);
                 ConfigureSpriteRenderers(tile, walkable, worldPosition.z);
 
@@ -116,6 +121,31 @@ public class MazeRenderer : MonoBehaviour
 
         Physics2D.SyncTransforms();
         ValidateGeneratedColliders();
+    }
+
+    private bool IsOuterWall(int x, int y)
+    {
+        int width = mazeGenerator.WalkableGrid.GetLength(0);
+        int height = mazeGenerator.WalkableGrid.GetLength(1);
+
+        if (x == 0 || y == 0 || x == width - 1 || y == height - 1)
+        {
+            return true;
+        }
+
+        return IsWalkableAt(x - 1, y, width, height)
+            || IsWalkableAt(x + 1, y, width, height)
+            || IsWalkableAt(x, y - 1, width, height)
+            || IsWalkableAt(x, y + 1, width, height);
+    }
+
+    private bool IsWalkableAt(int x, int y, int width, int height)
+    {
+        return x >= 0
+            && x < width
+            && y >= 0
+            && y < height
+            && mazeGenerator.WalkableGrid[x, y];
     }
 
     private bool TryGetMazeGenerator()
@@ -314,7 +344,7 @@ public class MazeRenderer : MonoBehaviour
             GameObject tile = generatedMazeParent.GetChild(i).gameObject;
             BoxCollider2D[] colliders = tile.GetComponentsInChildren<BoxCollider2D>(true);
 
-            if (tile.name.StartsWith("Wall_"))
+            if (tile.name.StartsWith("Wall_Outer_") || tile.name.StartsWith("Wall_Inner_"))
             {
                 wallCount++;
                 if (colliders.Length != 1)
