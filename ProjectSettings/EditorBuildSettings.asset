@@ -17,5 +17,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_2DAdventureGame/Tutorial_Demo/Demo_Scenes/Final/SugarLand_Example_Scene.unity
     guid: a86a62f58fa7649af9958b6c53bc8d28
+  - enabled: 1
+    path: Assets/Scenes/MazeTestScene.unity
+    guid: c0ec9e31e1364ad8ad0f628495fe87a4
+  - enabled: 1
+    path: Assets/Scenes/WelcomeScreen.unity
+    guid: c5d480024ae0c574d9f2d29d5777ade0
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
