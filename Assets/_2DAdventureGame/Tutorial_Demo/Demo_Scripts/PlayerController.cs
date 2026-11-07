@@ -49,6 +49,17 @@ namespace Beginner2D
 
         private NonPlayerCharacter lastNonPlayerCharacter;
         // Start is called before the first frame update
+        
+        // Dash
+        public InputAction DashAction;
+        public float dashSpeed = 12f;
+        public float dashDuration = 0.15f;
+        public float dashCooldown = 1f;
+        bool isDashing;
+        float dashTimeLeft;
+        float nextDashTime;
+        Vector2 dashDirection;
+        
         void Start()
         {
             // WASD movement
@@ -59,6 +70,8 @@ namespace Beginner2D
                 .With("Left", "<Keyboard>/a")
                 .With("Right", "<Keyboard>/d");
             LaunchAction = new InputAction("Launch", InputActionType.Button, "<Mouse>/leftButton");
+            DashAction = new InputAction("Dash", InputActionType.Button, "<Keyboard>/space");
+            DashAction.Enable();
             MoveAction.Enable();
             TalkAction.Enable();
             LaunchAction.Enable();
@@ -72,6 +85,17 @@ namespace Beginner2D
         // Update is called once per frame
         void Update()
         {
+            if (DashAction.WasPerformedThisFrame() && !isDashing && Time.time >= nextDashTime)
+            {
+                StartDash();
+            }
+
+            if (isDashing)
+            {
+                dashTimeLeft -= Time.deltaTime;
+                if (dashTimeLeft <= 0f)
+                    isDashing = false;
+            }
             move = MoveAction.ReadValue<Vector2>();
 
             if (!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))
@@ -139,12 +163,24 @@ namespace Beginner2D
         }
 
 
+        void StartDash()
+        {
+            // dash where the player is pressing, or the last direction if standing still
+            dashDirection = move.sqrMagnitude > 0.01f ? move.normalized : moveDirection;
+            isDashing = true;
+            dashTimeLeft = dashDuration;
+            nextDashTime = Time.time + dashCooldown;
 
+            // brief invincibility so you can dash through hits
+            isInvincible = true;
+            damageCooldown = Mathf.Max(damageCooldown, dashDuration);
+        }
 
         // FixedUpdate has the same call rate as the physics system 
         void FixedUpdate()
         {
-            Vector2 position = (Vector2)rigidbody2d.position + move * speed * Time.deltaTime;
+            Vector2 velocity = isDashing ? dashDirection * dashSpeed : move * speed;
+            Vector2 position = rigidbody2d.position + velocity * Time.deltaTime;
             rigidbody2d.MovePosition(position);
         }
 

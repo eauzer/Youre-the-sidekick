@@ -276,6 +276,27 @@ MonoBehaviour:
   playerHit: {fileID: 8300000, guid: c7d3a91ac32abbe47a8931a8ffc37bc6, type: 3}
   projectileThrow: {fileID: 8300000, guid: c87de0cae68cdbb409eec8ba23a860d0, type: 3}
   hitParticleEffect: {fileID: 3032662816014629373, guid: 17da090cbd3ec504ba4da073aa459073, type: 3}
+  DashAction:
+    m_Name: Dash
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 18197cf3-e773-4511-9dac-8f96985198a1
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: bfc06727-4dbe-4592-8717-37c29400b86d
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Dash
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
+  dashSpeed: 12
+  dashDuration: 0.15
+  dashCooldown: 1
 --- !u!95 &7835389012148503428
 Animator:
   serializedVersion: 7
