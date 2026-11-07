@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: 0fad96b46e4667646bae030d34f0df5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3759468932566301782
+    second: enemy_small_blob_0
+  - first:
+      213: -6288915243785116558
+    second: enemy_small_blob_1
+  - first:
+      213: 5955425834215320455
+    second: enemy_small_blob_2
+  - first:
+      213: -8462340264120270962
+    second: enemy_small_blob_3
+  - first:
+      213: -4873297760505614534
+    second: enemy_small_blob_4
+  - first:
+      213: -3084188268061818276
+    second: enemy_small_blob_5
+  - first:
+      213: -7554502338825220754
+    second: enemy_small_blob_6
+  - first:
+      213: -155873357856192817
+    second: enemy_small_blob_7
+  - first:
+      213: 4692263896601284441
+    second: enemy_small_blob_8
+  - first:
+      213: 1988502778350195467
+    second: enemy_small_blob_9
+  - first:
+      213: 7243313392949057010
+    second: enemy_small_blob_10
+  - first:
+      213: -6206815226994085566
+    second: enemy_small_blob_11
+  - first:
+      213: 3475391436395583589
+    second: enemy_small_blob_12
+  - first:
+      213: -7451034740446884714
+    second: enemy_small_blob_13
+  - first:
+      213: 5578091045836858895
+    second: enemy_small_blob_14
+  - first:
+      213: -550923392915177356
+    second: enemy_small_blob_15
+  - first:
+      213: 795347508564046112
+    second: enemy_small_blob_16
+  - first:
+      213: -3373095951691298685
+    second: enemy_small_blob_17
+  - first:
+      213: -4583842155568884136
+    second: enemy_small_blob_18
+  - first:
+      213: 4013621195411934843
+    second: enemy_small_blob_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_small_blob_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 100
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c3bbd53115c2430800000000000000
+      internalID: 3759468932566301782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 100
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27426a7e7e849b8a0800000000000000
+      internalID: -6288915243785116558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 100
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ba6963e3ce5a250800000000000000
+      internalID: 5955425834215320455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 100
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f30ac7d5abf8a80800000000000000
+      internalID: -8462340264120270962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 52
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f2b54b1819e5cb0800000000000000
+      internalID: -4873297760505614534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 52
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c528fb56c13c235d0800000000000000
+      internalID: -3084188268061818276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 52
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d0777f524092790800000000000000
+      internalID: -7554502338825220754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 52
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6c803c10a36ddf0800000000000000
+      internalID: -155873357856192817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f4f4d37254e1140800000000000000
+      internalID: 4692263896601284441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03d07acdb4989b10800000000000000
+      internalID: 1988502778350195467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 26
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5de87772b658460800000000000000
+      internalID: 7243313392949057010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_11
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2413888af66fcd9a0800000000000000
+      internalID: -6206815226994085566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 4
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5681bc519121b3030800000000000000
+      internalID: 3475391436395583589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 26
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c819e716b989890800000000000000
+      internalID: -7451034740446884714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06a4ef804c596d40800000000000000
+      internalID: 5578091045836858895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_15
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 4
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47086d2d71aba58f0800000000000000
+      internalID: -550923392915177356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_16
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 26
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021b3f85854a90b00800000000000000
+      internalID: 795347508564046112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388c1267a1b5031d0800000000000000
+      internalID: -3373095951691298685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 4
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8561bd288dbe260c0800000000000000
+      internalID: -4583842155568884136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_small_blob_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 26
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ec18f463f33b730800000000000000
+      internalID: 4013621195411934843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemy_small_blob_0: 3759468932566301782
+      enemy_small_blob_1: -6288915243785116558
+      enemy_small_blob_10: 7243313392949057010
+      enemy_small_blob_11: -6206815226994085566
+      enemy_small_blob_12: 3475391436395583589
+      enemy_small_blob_13: -7451034740446884714
+      enemy_small_blob_14: 5578091045836858895
+      enemy_small_blob_15: -550923392915177356
+      enemy_small_blob_16: 795347508564046112
+      enemy_small_blob_17: -3373095951691298685
+      enemy_small_blob_18: -4583842155568884136
+      enemy_small_blob_19: 4013621195411934843
+      enemy_small_blob_2: 5955425834215320455
+      enemy_small_blob_3: -8462340264120270962
+      enemy_small_blob_4: -4873297760505614534
+      enemy_small_blob_5: -3084188268061818276
+      enemy_small_blob_6: -7554502338825220754
+      enemy_small_blob_7: -155873357856192817
+      enemy_small_blob_8: 4692263896601284441
+      enemy_small_blob_9: 1988502778350195467
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

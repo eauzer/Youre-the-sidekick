@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 2462ecdc6a4571a4885b198c201d3979
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3524643572889456556
+    second: enemy_medium_thrower_0
+  - first:
+      213: -7586732412237659545
+    second: enemy_medium_thrower_1
+  - first:
+      213: 3470062925957234968
+    second: enemy_medium_thrower_2
+  - first:
+      213: -1244551469514041534
+    second: enemy_medium_thrower_3
+  - first:
+      213: 4711082115870500389
+    second: enemy_medium_thrower_4
+  - first:
+      213: 5822054475672838980
+    second: enemy_medium_thrower_5
+  - first:
+      213: 1298558607423773010
+    second: enemy_medium_thrower_6
+  - first:
+      213: 1428549798927053968
+    second: enemy_medium_thrower_7
+  - first:
+      213: 8535834767085804281
+    second: enemy_medium_thrower_8
+  - first:
+      213: -8427183320289667321
+    second: enemy_medium_thrower_9
+  - first:
+      213: -3885228069983017804
+    second: enemy_medium_thrower_10
+  - first:
+      213: -8362362319647338168
+    second: enemy_medium_thrower_11
+  - first:
+      213: 7599938672421530263
+    second: enemy_medium_thrower_12
+  - first:
+      213: -7177235643610030864
+    second: enemy_medium_thrower_13
+  - first:
+      213: -5091903098357353465
+    second: enemy_medium_thrower_14
+  - first:
+      213: -1851996812144958080
+    second: enemy_medium_thrower_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_medium_thrower_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 146
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf80f9b7ac0ae030800000000000000
+      internalID: 3524643572889456556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 146
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762c1aa311386b690800000000000000
+      internalID: -7586732412237659545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 146
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8110fe198d3282030800000000000000
+      internalID: 3470062925957234968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 146
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247dcea48077abee0800000000000000
+      internalID: -1244551469514041534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 98
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52628285930216140800000000000000
+      internalID: 4711082115870500389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 98
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443e375f2b71cc050800000000000000
+      internalID: 5822054475672838980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 98
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25915836c28650210800000000000000
+      internalID: 1298558607423773010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 98
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094b00d297a33d310800000000000000
+      internalID: 1428549798927053968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 50
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa1491fe70657670800000000000000
+      internalID: 8535834767085804281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 50
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70799095b61ac0b80800000000000000
+      internalID: -8427183320289667321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 50
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b42949b7a5e41ac0800000000000000
+      internalID: -3885228069983017804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 50
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8411f46a6cbe2fb80800000000000000
+      internalID: -8362362319647338168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a6074d4f7687960800000000000000
+      internalID: 7599938672421530263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc1a517536556c90800000000000000
+      internalID: -7177235643610030864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704f2bf2c1de559b0800000000000000
+      internalID: -5091903098357353465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_medium_thrower_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085a1fe26b26c46e0800000000000000
+      internalID: -1851996812144958080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemy_medium_thrower_0: 3524643572889456556
+      enemy_medium_thrower_1: -7586732412237659545
+      enemy_medium_thrower_10: -3885228069983017804
+      enemy_medium_thrower_11: -8362362319647338168
+      enemy_medium_thrower_12: 7599938672421530263
+      enemy_medium_thrower_13: -7177235643610030864
+      enemy_medium_thrower_14: -5091903098357353465
+      enemy_medium_thrower_15: -1851996812144958080
+      enemy_medium_thrower_2: 3470062925957234968
+      enemy_medium_thrower_3: -1244551469514041534
+      enemy_medium_thrower_4: 4711082115870500389
+      enemy_medium_thrower_5: 5822054475672838980
+      enemy_medium_thrower_6: 1298558607423773010
+      enemy_medium_thrower_7: 1428549798927053968
+      enemy_medium_thrower_8: 8535834767085804281
+      enemy_medium_thrower_9: -8427183320289667321
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
