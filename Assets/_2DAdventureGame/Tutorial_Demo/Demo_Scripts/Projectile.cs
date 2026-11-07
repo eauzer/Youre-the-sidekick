@@ -32,8 +32,11 @@ namespace Beginner2D
         }
 
         //called by the player controller after it instantiate a new projectile to launch it.
-        public void Launch(Vector2 direction, float force)
+        public void Launch(Vector2 direction, float force, Collider2D thrower = null)
         {
+            if (thrower != null)
+                Physics2D.IgnoreCollision(GetComponentInChildren<Collider2D>(), thrower);
+
             rigidbody2d.AddForce(direction * force);
         }
 

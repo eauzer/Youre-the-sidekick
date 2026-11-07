@@ -51,6 +51,14 @@ namespace Beginner2D
         // Start is called before the first frame update
         void Start()
         {
+            // WASD movement
+            MoveAction = new InputAction("Move", InputActionType.Value);
+            MoveAction.AddCompositeBinding("2DVector")
+                .With("Up", "<Keyboard>/w")
+                .With("Down", "<Keyboard>/s")
+                .With("Left", "<Keyboard>/a")
+                .With("Right", "<Keyboard>/d");
+            LaunchAction = new InputAction("Launch", InputActionType.Button, "<Mouse>/leftButton");
             MoveAction.Enable();
             TalkAction.Enable();
             LaunchAction.Enable();
@@ -163,9 +171,16 @@ namespace Beginner2D
         void Launch()
         {
             PlaySound(projectileThrow);
-            GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
+
+            Vector2 mouseWorld = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            Vector2 aimDirection = (mouseWorld - rigidbody2d.position).normalized;
+
+            // spawn out in front of the player, toward the aim direction
+            Vector2 spawnPos = rigidbody2d.position + Vector2.up * 0.5f + aimDirection * 0.6f;
+
+            GameObject projectileObject = Instantiate(projectilePrefab, spawnPos, Quaternion.identity);
             Projectile projectile = projectileObject.GetComponent<Projectile>();
-            projectile.Launch(moveDirection, 300);
+            projectile.Launch(aimDirection, 300, GetComponentInChildren<Collider2D>());
             animator.SetTrigger("Launch");
         }
 
