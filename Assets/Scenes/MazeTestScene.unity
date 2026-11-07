@@ -546,7 +546,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floorPrefab: {fileID: 7853964069032694249, guid: 72d9626d6b41ea84c80985d077d39fe8, type: 3}
-  wallPrefab: {fileID: 8050326227481987266, guid: 35f0c8ef2a41079459cc66ada17a784b, type: 3}
+  outerWallPrefab: {fileID: 8050326227481987266, guid: 6b2dc9b504dc4c168b3d590e9f1fb87a, type: 3}
+  innerWallPrefab: {fileID: 8050326227481987266, guid: c8a6c413da0b4ec99c51cc4e2eb8429d, type: 3}
   cellSize: 1
   mazeGenerator: {fileID: 1000000033}
   generatedMazeParent: {fileID: 1000000042}
