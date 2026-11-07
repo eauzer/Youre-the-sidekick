@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 96778103}
   - component: {fileID: 96778102}
   - component: {fileID: 96778101}
+  - component: {fileID: 96778104}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -201,7 +202,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 96778102}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 96778104}
+        m_TargetAssemblyTypeName: SwitchScenes, Assembly-CSharp
+        m_MethodName: OnQuit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &96778102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +253,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96778099}
   m_CullTransparentMesh: 1
+--- !u!114 &96778104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96778099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1f80278bbf7574e911a2d041993265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwitchScenes
+  path: 
 --- !u!1 &418985702
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,6 +278,7 @@ GameObject:
   - component: {fileID: 418985706}
   - component: {fileID: 418985705}
   - component: {fileID: 418985704}
+  - component: {fileID: 418985707}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -322,7 +349,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 418985705}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 418985707}
+        m_TargetAssemblyTypeName: SwitchScenes, Assembly-CSharp
+        m_MethodName: OnSwitchScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &418985705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -361,6 +400,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 418985702}
   m_CullTransparentMesh: 1
+--- !u!114 &418985707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418985702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1f80278bbf7574e911a2d041993265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwitchScenes
+  path: Assets/Scenes/MazeTestScene.unity
 --- !u!1 &561698911
 GameObject:
   m_ObjectHideFlags: 0
