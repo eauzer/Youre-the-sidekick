@@ -533,6 +533,14 @@ MonoBehaviour:
   generateOnStart: 1
   smallCombatRoomCount: 4
   regularCombatRoomCount: 3
+  spawnEnemies: 1
+  enemyPrefabs:
+  - {fileID: 1438136173140771368, guid: 2f5bf6744dd56ac4ca8e2bfad77e08ac, type: 3}
+  enemiesPerRoom: 2
+  corridorEnemyCount: 6
+  minEnemyDistanceFromStart: 15
+  minEnemySpacing: 4
+  enemySortingOrder: 10
 --- !u!114 &1000000034
 MonoBehaviour:
   m_ObjectHideFlags: 0
