@@ -105,6 +105,16 @@ public class MazeGenerator : MonoBehaviour
             0f);
     }
 
+    public Vector2Int WorldToGrid(Vector3 worldPosition)
+    {
+        Vector3 local = worldPosition - transform.position;
+        int x = Mathf.RoundToInt(local.x / cellSize + (Width - 1) * 0.5f);
+        int y = Mathf.RoundToInt(local.y / cellSize + (Height - 1) * 0.5f);
+        return new Vector2Int(
+            Mathf.Clamp(x, 0, Width - 1),
+            Mathf.Clamp(y, 0, Height - 1));
+    }
+
     public List<Vector2Int> GetWalkablePositions()
     {
         List<Vector2Int> positions = new List<Vector2Int>();
