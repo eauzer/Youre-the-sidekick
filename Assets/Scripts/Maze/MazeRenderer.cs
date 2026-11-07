@@ -384,8 +384,10 @@ public class MazeRenderer : MonoBehaviour
 
     private static bool BoundsMatch(Bounds first, Bounds second, float tolerance)
     {
-        return (first.center - second.center).sqrMagnitude <= tolerance * tolerance
-            && (first.size - second.size).sqrMagnitude <= tolerance * tolerance;
+        Vector2 centerDifference = (Vector2)first.center - (Vector2)second.center;
+        Vector2 sizeDifference = (Vector2)first.size - (Vector2)second.size;
+        return centerDifference.sqrMagnitude <= tolerance * tolerance
+            && sizeDifference.sqrMagnitude <= tolerance * tolerance;
     }
 
     private static void TintTile(GameObject tile, Color color)
