@@ -29,7 +29,7 @@ namespace Beginner2D
 
         void Start()
         {
-            enemies = FindObjectsByType<Enemy>(FindObjectsSortMode.None);
+            enemies = FindObjectsByType<Enemy>(FindObjectsInactive.Exclude);
 
             foreach (var enemy in enemies)
             {

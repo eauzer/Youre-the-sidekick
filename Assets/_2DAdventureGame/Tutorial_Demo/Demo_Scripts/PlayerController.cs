@@ -30,6 +30,7 @@ namespace Beginner2D
 
         // Variables related to Animation
         Animator animator;
+        bool hasAnimator;
         Vector2 moveDirection = new Vector2(1, 0);
 
         // Variables related to Projectile
@@ -78,6 +79,7 @@ namespace Beginner2D
             rigidbody2d = GetComponent<Rigidbody2D>();
             currentHealth = maxHealth;
             animator = GetComponent<Animator>();
+            hasAnimator = animator != null && animator.runtimeAnimatorController != null;
             audioSource = GetComponent<AudioSource>();
         }
 
@@ -104,9 +106,12 @@ namespace Beginner2D
                 moveDirection.Normalize();
             }
 
-            animator.SetFloat("Look X", moveDirection.x);
-            animator.SetFloat("Look Y", moveDirection.y);
-            animator.SetFloat("Speed", move.magnitude);
+            if (hasAnimator)
+            {
+                animator.SetFloat("Look X", moveDirection.x);
+                animator.SetFloat("Look Y", moveDirection.y);
+                animator.SetFloat("Speed", move.magnitude);
+            }
 
             if (isInvincible)
             {
@@ -197,7 +202,7 @@ namespace Beginner2D
                 Instantiate(hitParticleEffect, transform.position + Vector3.up * 0.6f, Quaternion.identity);
                 isInvincible = true;
                 damageCooldown = timeInvincible;
-                animator.SetTrigger("Hit");
+                if (hasAnimator) animator.SetTrigger("Hit");
             }
             currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
             UIHandler.instance.SetHealthValue(currentHealth / (float)maxHealth);
@@ -217,7 +222,7 @@ namespace Beginner2D
             GameObject projectileObject = Instantiate(projectilePrefab, spawnPos, Quaternion.identity);
             Projectile projectile = projectileObject.GetComponent<Projectile>();
             projectile.Launch(aimDirection, 300, GetComponentInChildren<Collider2D>());
-            animator.SetTrigger("Launch");
+            if (hasAnimator) animator.SetTrigger("Launch");
         }
 
 

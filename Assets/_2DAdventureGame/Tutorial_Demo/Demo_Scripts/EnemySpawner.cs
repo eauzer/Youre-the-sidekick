@@ -59,6 +59,7 @@ namespace Beginner2D
         void Update()
         {
             if (player == null || mazeGenerator == null || mainCamera == null) return;
+            if (mazeGenerator.Width == 0 || enemyTypes == null || enemyTypes.Length == 0) return;
 
             spawnTimer -= Time.deltaTime;
             if (spawnTimer <= 0f)
@@ -89,10 +90,17 @@ namespace Beginner2D
             int typeIndex = PickSpawnableType();
             if (typeIndex == -1) return;
 
-            Vector3? spawnPos = FindSpawnPosition(enemyTypes[typeIndex]);
+            EnemyType chosen = enemyTypes[typeIndex];
+            if (chosen.prefab == null)
+            {
+                Debug.LogWarning($"[EnemySpawner] Enemy type at index {typeIndex} has no prefab assigned.", this);
+                return;
+            }
+
+            Vector3? spawnPos = FindSpawnPosition(chosen);
             if (!spawnPos.HasValue) return;
 
-            GameObject enemy = Instantiate(enemyTypes[typeIndex].prefab, spawnPos.Value, Quaternion.identity);
+            GameObject enemy = Instantiate(chosen.prefab, spawnPos.Value, Quaternion.identity);
             activeEnemies[typeIndex].Add(enemy);
         }
 
@@ -112,18 +120,17 @@ namespace Beginner2D
         {
             Vector3 playerPos = player.position;
             Vector2Int playerCell = mazeGenerator.WorldToGrid(playerPos);
+            float cs = mazeGenerator.CellSize;
 
-            int cellMin = Mathf.RoundToInt(spawnRangeMin / mazeGenerator.CellSize);
-            int cellMax = Mathf.RoundToInt(spawnRangeMax / mazeGenerator.CellSize);
+            float rangeMinSqr = spawnRangeMin * spawnRangeMin;
+            float rangeMaxSqr = spawnRangeMax * spawnRangeMax;
+            int cellMax = Mathf.CeilToInt(spawnRangeMax / cs);
 
-            const int maxAttempts = 30;
+            const int maxAttempts = 60;
             for (int attempt = 0; attempt < maxAttempts; attempt++)
             {
                 int offsetX = UnityEngine.Random.Range(-cellMax, cellMax + 1);
                 int offsetY = UnityEngine.Random.Range(-cellMax, cellMax + 1);
-                int manhattanDist = Mathf.Abs(offsetX) + Mathf.Abs(offsetY);
-                if (manhattanDist < cellMin || manhattanDist > cellMax)
-                    continue;
 
                 Vector2Int candidate = playerCell + new Vector2Int(offsetX, offsetY);
 
@@ -131,13 +138,16 @@ namespace Beginner2D
                     candidate.y < 0 || candidate.y >= mazeGenerator.Height)
                     continue;
 
+                Vector3 worldPos = mazeGenerator.GridToWorld(candidate);
+                float distSqr = (worldPos - playerPos).sqrMagnitude;
+                if (distSqr < rangeMinSqr || distSqr > rangeMaxSqr)
+                    continue;
+
                 bool walkable = mazeGenerator.IsWalkable(candidate);
                 if (enemyType.requiresWalkable && !walkable) continue;
                 if (!enemyType.requiresWalkable && walkable) continue;
 
                 if (enemyType.spawnNearWalls && !IsAdjacentToWall(candidate)) continue;
-
-                Vector3 worldPos = mazeGenerator.GridToWorld(candidate);
 
                 if (IsVisibleToCamera(worldPos)) continue;
 

@@ -67,22 +67,28 @@ namespace Beginner2D
 			{
 				return;
 			}
-           
+
 			Vector2 position = rigidbody2d.position;
-		
+
 			if (vertical)
 			{
 				position.y = position.y + speed * direction * Time.deltaTime;
-				animator.SetFloat("Move X", 0);
-				animator.SetFloat("Move Y", direction);
+				if (animator != null && animator.runtimeAnimatorController != null)
+				{
+					animator.SetFloat("Move X", 0);
+					animator.SetFloat("Move Y", direction);
+				}
 			}
 			else
 			{
 				position.x = position.x + speed * direction * Time.deltaTime;
-				animator.SetFloat("Move X", direction);
-				animator.SetFloat("Move Y", 0);
+				if (animator != null && animator.runtimeAnimatorController != null)
+				{
+					animator.SetFloat("Move X", direction);
+					animator.SetFloat("Move Y", 0);
+				}
 			}
-			
+
 			rigidbody2d.MovePosition(position);
 		}
 		
@@ -100,7 +106,8 @@ namespace Beginner2D
 		{
 			broken = false;
 			rigidbody2d.simulated = false;
-			animator.SetTrigger("Fixed");
+			if (animator != null && animator.runtimeAnimatorController != null)
+				animator.SetTrigger("Fixed");
 
 			// Audio
 			audioSource.Stop();
