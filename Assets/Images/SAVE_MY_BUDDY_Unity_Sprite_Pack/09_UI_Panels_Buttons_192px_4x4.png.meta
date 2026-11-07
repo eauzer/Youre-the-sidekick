@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: f460d87b5c723bf47a86cc8a49be797b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3545495524497714038
+    second: 09_UI_Panels_Buttons_192px_4x4_0
+  - first:
+      213: 8302806337948423481
+    second: 09_UI_Panels_Buttons_192px_4x4_1
+  - first:
+      213: -8859420857452956993
+    second: 09_UI_Panels_Buttons_192px_4x4_2
+  - first:
+      213: -946505727396419693
+    second: 09_UI_Panels_Buttons_192px_4x4_3
+  - first:
+      213: 8169568694310082360
+    second: 09_UI_Panels_Buttons_192px_4x4_4
+  - first:
+      213: 4692528038921298297
+    second: 09_UI_Panels_Buttons_192px_4x4_5
+  - first:
+      213: 2355911809523265906
+    second: 09_UI_Panels_Buttons_192px_4x4_6
+  - first:
+      213: 4034702093623710383
+    second: 09_UI_Panels_Buttons_192px_4x4_7
+  - first:
+      213: 8936220807840210621
+    second: 09_UI_Panels_Buttons_192px_4x4_8
+  - first:
+      213: -4045814223671936418
+    second: 09_UI_Panels_Buttons_192px_4x4_9
+  - first:
+      213: -4912106336757023645
+    second: 09_UI_Panels_Buttons_192px_4x4_10
+  - first:
+      213: -752400631933005966
+    second: 09_UI_Panels_Buttons_192px_4x4_11
+  - first:
+      213: 2548213113330986166
+    second: 09_UI_Panels_Buttons_192px_4x4_12
+  - first:
+      213: 8060766466690190178
+    second: 09_UI_Panels_Buttons_192px_4x4_13
+  - first:
+      213: -6770372016730125537
+    second: 09_UI_Panels_Buttons_192px_4x4_14
+  - first:
+      213: -6710253245713234323
+    second: 09_UI_Panels_Buttons_192px_4x4_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 599
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b6c6a0561243130800000000000000
+      internalID: 3545495524497714038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 584
+        width: 145
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935174ccf5e793370800000000000000
+      internalID: 8302806337948423481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_2
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 629
+        width: 175
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb274db5ba30d0580800000000000000
+      internalID: -8859420857452956993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_3
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 584
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397e9a44e065dd2f0800000000000000
+      internalID: -946505727396419693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 407
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83711887173206170800000000000000
+      internalID: 8169568694310082360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_5
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 392
+        width: 145
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971e67aa3653f1140800000000000000
+      internalID: 4692528038921298297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_6
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 437
+        width: 175
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27138c00f41e1b020800000000000000
+      internalID: 2355911809523265906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_7
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 392
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa257f86d242ef730800000000000000
+      internalID: 4034702093623710383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 257
+        width: 157
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe15c58a75d30c70800000000000000
+      internalID: 8936220807840210621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_9
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 257
+        width: 157
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5abfc236616ad7c0800000000000000
+      internalID: -4045814223671936418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_10
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 257
+        width: 157
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cf6aaef41b4dbb0800000000000000
+      internalID: -4912106336757023645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_11
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 257
+        width: 157
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f8ad49c9fee85f0800000000000000
+      internalID: -752400631933005966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 65
+        width: 157
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bce51853521d5320800000000000000
+      internalID: 2548213113330986166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 65
+        width: 157
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b0378c4689ddf60800000000000000
+      internalID: 8060766466690190178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 65
+        width: 157
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b4e81958eca02a0800000000000000
+      internalID: -6770372016730125537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 09_UI_Panels_Buttons_192px_4x4_15
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 65
+        width: 157
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66c958b93460e2a0800000000000000
+      internalID: -6710253245713234323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      09_UI_Panels_Buttons_192px_4x4_0: 3545495524497714038
+      09_UI_Panels_Buttons_192px_4x4_1: 8302806337948423481
+      09_UI_Panels_Buttons_192px_4x4_10: -4912106336757023645
+      09_UI_Panels_Buttons_192px_4x4_11: -752400631933005966
+      09_UI_Panels_Buttons_192px_4x4_12: 2548213113330986166
+      09_UI_Panels_Buttons_192px_4x4_13: 8060766466690190178
+      09_UI_Panels_Buttons_192px_4x4_14: -6770372016730125537
+      09_UI_Panels_Buttons_192px_4x4_15: -6710253245713234323
+      09_UI_Panels_Buttons_192px_4x4_2: -8859420857452956993
+      09_UI_Panels_Buttons_192px_4x4_3: -946505727396419693
+      09_UI_Panels_Buttons_192px_4x4_4: 8169568694310082360
+      09_UI_Panels_Buttons_192px_4x4_5: 4692528038921298297
+      09_UI_Panels_Buttons_192px_4x4_6: 2355911809523265906
+      09_UI_Panels_Buttons_192px_4x4_7: 4034702093623710383
+      09_UI_Panels_Buttons_192px_4x4_8: 8936220807840210621
+      09_UI_Panels_Buttons_192px_4x4_9: -4045814223671936418
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1159 @@
+fileFormatVersion: 2
+guid: 1beca4776b2fa564790ad3064ecb6447
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1574360560288350040
+    second: ai_buddy_knight_0
+  - first:
+      213: -4388527624551395981
+    second: ai_buddy_knight_1
+  - first:
+      213: 5177865854016695250
+    second: ai_buddy_knight_2
+  - first:
+      213: -5327195746621547837
+    second: ai_buddy_knight_3
+  - first:
+      213: 434364279648698991
+    second: ai_buddy_knight_4
+  - first:
+      213: -7962199291436394849
+    second: ai_buddy_knight_5
+  - first:
+      213: -8094457355462892978
+    second: ai_buddy_knight_6
+  - first:
+      213: -5471620849868940551
+    second: ai_buddy_knight_7
+  - first:
+      213: 7819865030165804882
+    second: ai_buddy_knight_8
+  - first:
+      213: -1862011658814851189
+    second: ai_buddy_knight_9
+  - first:
+      213: 4143480700295237809
+    second: ai_buddy_knight_10
+  - first:
+      213: 2924331107787093783
+    second: ai_buddy_knight_11
+  - first:
+      213: -7774601906667837936
+    second: ai_buddy_knight_12
+  - first:
+      213: 7922756518961980295
+    second: ai_buddy_knight_13
+  - first:
+      213: -4823360018080632659
+    second: ai_buddy_knight_14
+  - first:
+      213: -8547537200519777867
+    second: ai_buddy_knight_15
+  - first:
+      213: 2649101497326820412
+    second: ai_buddy_knight_16
+  - first:
+      213: -5564037384654950829
+    second: ai_buddy_knight_17
+  - first:
+      213: -8597721471876892137
+    second: ai_buddy_knight_18
+  - first:
+      213: 375819306450159009
+    second: ai_buddy_knight_19
+  - first:
+      213: 7818332350631869953
+    second: ai_buddy_knight_20
+  - first:
+      213: 4269465009558229154
+    second: ai_buddy_knight_21
+  - first:
+      213: -3658115943694316960
+    second: ai_buddy_knight_22
+  - first:
+      213: 5287670995063929309
+    second: ai_buddy_knight_23
+  - first:
+      213: 7889185327175374994
+    second: ai_buddy_knight_24
+  - first:
+      213: 2188491373844312062
+    second: ai_buddy_knight_25
+  - first:
+      213: -93405512899703017
+    second: ai_buddy_knight_26
+  - first:
+      213: -1287243734090272854
+    second: ai_buddy_knight_27
+  - first:
+      213: 2851261047538221109
+    second: ai_buddy_knight_28
+  - first:
+      213: 3321224218614770966
+    second: ai_buddy_knight_29
+  - first:
+      213: 3054470962681204199
+    second: ai_buddy_knight_30
+  - first:
+      213: -6419480018216986975
+    second: ai_buddy_knight_31
+  - first:
+      213: 2695809542661705617
+    second: ai_buddy_knight_32
+  - first:
+      213: -4827489529010783606
+    second: ai_buddy_knight_33
+  - first:
+      213: 8875365967704531011
+    second: ai_buddy_knight_34
+  - first:
+      213: -6789046203470706927
+    second: ai_buddy_knight_35
+  - first:
+      213: 1235174265184884557
+    second: ai_buddy_knight_36
+  - first:
+      213: -5185152116674628422
+    second: ai_buddy_knight_37
+  - first:
+      213: -4482873384844513897
+    second: ai_buddy_knight_38
+  - first:
+      213: 2111794796552778413
+    second: ai_buddy_knight_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ai_buddy_knight_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 434
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f3f58969049d510800000000000000
+      internalID: 1574360560288350040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 434
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d00ab7061d813c0800000000000000
+      internalID: -4388527624551395981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 434
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db2a4b8f897bd740800000000000000
+      internalID: 5177865854016695250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 434
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca96a171bff116b0800000000000000
+      internalID: -5327195746621547837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 386
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62449fc20c270600800000000000000
+      internalID: 434364279648698991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 386
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9611131ee5908190800000000000000
+      internalID: -7962199291436394849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 386
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e422616ebe5baaf80800000000000000
+      internalID: -8094457355462892978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 386
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fad0f1b3d5e014b0800000000000000
+      internalID: -5471620849868940551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 338
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257388240ddb58c60800000000000000
+      internalID: 7819865030165804882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_9
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 338
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8774bcf24ec826e0800000000000000
+      internalID: -1862011658814851189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_10
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 338
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0d8ca6eb9908930800000000000000
+      internalID: 4143480700295237809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_11
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 338
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717364516af459820800000000000000
+      internalID: 2924331107787093783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 290
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0162dfae1c01b1490800000000000000
+      internalID: -7774601906667837936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 290
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783a3a2d31943fd60800000000000000
+      internalID: 7922756518961980295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 290
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da07b7a6e9bff0db0800000000000000
+      internalID: -4823360018080632659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 290
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1f492f33c016980800000000000000
+      internalID: -8547537200519777867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 242
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3cde1ab6cf73c420800000000000000
+      internalID: 2649101497326820412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_17
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 242
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ee5aa6a7198c2b0800000000000000
+      internalID: -5564037384654950829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_18
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 242
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a770fbfd1cea880800000000000000
+      internalID: -8597721471876892137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 242
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a502b40bad273500800000000000000
+      internalID: 375819306450159009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 194
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e7b5f79db408c60800000000000000
+      internalID: 7818332350631869953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_21
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 194
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a09dab3ecf204b30800000000000000
+      internalID: 4269465009558229154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 194
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a48e44ee2cb3dc0800000000000000
+      internalID: -3658115943694316960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 194
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9fbe531c4916940800000000000000
+      internalID: 5287670995063929309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 146
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2981381a1440c7d60800000000000000
+      internalID: 7889185327175374994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_25
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 146
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff2ff33f451f5e10800000000000000
+      internalID: 2188491373844312062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_26
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 146
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fcc8f4e2824bef0800000000000000
+      internalID: -93405512899703017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 146
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafa33ad4aac22ee0800000000000000
+      internalID: -1287243734090272854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 98
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5308c6ce0d6b19720800000000000000
+      internalID: 2851261047538221109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_29
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 98
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d25f984db571e20800000000000000
+      internalID: 3321224218614770966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_30
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 98
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7edcb534829a36a20800000000000000
+      internalID: 3054470962681204199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_31
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 98
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6557f6fec69e6a0800000000000000
+      internalID: -6419480018216986975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 50
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f857cfe70796520800000000000000
+      internalID: 2695809542661705617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_33
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 50
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8af46ab9df410db0800000000000000
+      internalID: -4827489529010783606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_34
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 50
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340ae9ce252ab2b70800000000000000
+      internalID: 8875365967704531011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_35
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 50
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1170a66a27678c1a0800000000000000
+      internalID: -6789046203470706927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d479c003378342110800000000000000
+      internalID: 1235174265184884557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_37
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 2
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab47e3b3f93aa08b0800000000000000
+      internalID: -5185152116674628422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_38
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d2a436862a9c1c0800000000000000
+      internalID: -4482873384844513897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ai_buddy_knight_39
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2fb0fbd2a9e4d10800000000000000
+      internalID: 2111794796552778413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ai_buddy_knight_0: 1574360560288350040
+      ai_buddy_knight_1: -4388527624551395981
+      ai_buddy_knight_10: 4143480700295237809
+      ai_buddy_knight_11: 2924331107787093783
+      ai_buddy_knight_12: -7774601906667837936
+      ai_buddy_knight_13: 7922756518961980295
+      ai_buddy_knight_14: -4823360018080632659
+      ai_buddy_knight_15: -8547537200519777867
+      ai_buddy_knight_16: 2649101497326820412
+      ai_buddy_knight_17: -5564037384654950829
+      ai_buddy_knight_18: -8597721471876892137
+      ai_buddy_knight_19: 375819306450159009
+      ai_buddy_knight_2: 5177865854016695250
+      ai_buddy_knight_20: 7818332350631869953
+      ai_buddy_knight_21: 4269465009558229154
+      ai_buddy_knight_22: -3658115943694316960
+      ai_buddy_knight_23: 5287670995063929309
+      ai_buddy_knight_24: 7889185327175374994
+      ai_buddy_knight_25: 2188491373844312062
+      ai_buddy_knight_26: -93405512899703017
+      ai_buddy_knight_27: -1287243734090272854
+      ai_buddy_knight_28: 2851261047538221109
+      ai_buddy_knight_29: 3321224218614770966
+      ai_buddy_knight_3: -5327195746621547837
+      ai_buddy_knight_30: 3054470962681204199
+      ai_buddy_knight_31: -6419480018216986975
+      ai_buddy_knight_32: 2695809542661705617
+      ai_buddy_knight_33: -4827489529010783606
+      ai_buddy_knight_34: 8875365967704531011
+      ai_buddy_knight_35: -6789046203470706927
+      ai_buddy_knight_36: 1235174265184884557
+      ai_buddy_knight_37: -5185152116674628422
+      ai_buddy_knight_38: -4482873384844513897
+      ai_buddy_knight_39: 2111794796552778413
+      ai_buddy_knight_4: 434364279648698991
+      ai_buddy_knight_5: -7962199291436394849
+      ai_buddy_knight_6: -8094457355462892978
+      ai_buddy_knight_7: -5471620849868940551
+      ai_buddy_knight_8: 7819865030165804882
+      ai_buddy_knight_9: -1862011658814851189
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

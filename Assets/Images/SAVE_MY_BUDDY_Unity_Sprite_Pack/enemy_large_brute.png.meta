@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 93c607e8ca9134e48b10d256794b6a0e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3959701409065921821
+    second: enemy_large_brute_0
+  - first:
+      213: -219789035686449017
+    second: enemy_large_brute_1
+  - first:
+      213: 3995881413321144670
+    second: enemy_large_brute_2
+  - first:
+      213: -2103587138134953091
+    second: enemy_large_brute_3
+  - first:
+      213: -7022990624380820357
+    second: enemy_large_brute_4
+  - first:
+      213: 5416455558749798252
+    second: enemy_large_brute_5
+  - first:
+      213: -7200037419539871261
+    second: enemy_large_brute_6
+  - first:
+      213: 7157195769279065112
+    second: enemy_large_brute_7
+  - first:
+      213: 3067874543122112191
+    second: enemy_large_brute_8
+  - first:
+      213: -4391966141434137531
+    second: enemy_large_brute_9
+  - first:
+      213: -4041064476377783120
+    second: enemy_large_brute_10
+  - first:
+      213: 1713183079666147423
+    second: enemy_large_brute_11
+  - first:
+      213: -6788036390993351010
+    second: enemy_large_brute_12
+  - first:
+      213: -8328054817159943849
+    second: enemy_large_brute_13
+  - first:
+      213: -677641267582467460
+    second: enemy_large_brute_14
+  - first:
+      213: -2296774260220277400
+    second: enemy_large_brute_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_large_brute_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 144
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1decffb37fa3f630800000000000000
+      internalID: 3959701409065921821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 144
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780326a590723fcf0800000000000000
+      internalID: -219789035686449017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 144
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59b79d69f8347730800000000000000
+      internalID: 3995881413321144670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 144
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73b265a4ae8ec2e0800000000000000
+      internalID: -2103587138134953091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 96
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74e1ec8c33598e90800000000000000
+      internalID: -7022990624380820357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 96
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fb8f012ad1b2b40800000000000000
+      internalID: 5416455558749798252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 96
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e94ec64d14541c90800000000000000
+      internalID: -7200037419539871261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_7
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 96
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81caec7b1a7735360800000000000000
+      internalID: 7157195769279065112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 48
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbed14684a7439a20800000000000000
+      internalID: 3067874543122112191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 48
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5447642601a9c03c0800000000000000
+      internalID: -4391966141434137531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 48
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b46d0be4414be7c0800000000000000
+      internalID: -4041064476377783120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 48
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50e5b22fe276c710800000000000000
+      internalID: 1713183079666147423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9eaa60fddc0cc1a0800000000000000
+      internalID: -6788036390993351010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_13
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7596339844ecc6c80800000000000000
+      internalID: -8328054817159943849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c720a908bd88896f0800000000000000
+      internalID: -677641267582467460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_large_brute_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d4f4aaaf73020e0800000000000000
+      internalID: -2296774260220277400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemy_large_brute_0: 3959701409065921821
+      enemy_large_brute_1: -219789035686449017
+      enemy_large_brute_10: -4041064476377783120
+      enemy_large_brute_11: 1713183079666147423
+      enemy_large_brute_12: -6788036390993351010
+      enemy_large_brute_13: -8328054817159943849
+      enemy_large_brute_14: -677641267582467460
+      enemy_large_brute_15: -2296774260220277400
+      enemy_large_brute_2: 3995881413321144670
+      enemy_large_brute_3: -2103587138134953091
+      enemy_large_brute_4: -7022990624380820357
+      enemy_large_brute_5: 5416455558749798252
+      enemy_large_brute_6: -7200037419539871261
+      enemy_large_brute_7: 7157195769279065112
+      enemy_large_brute_8: 3067874543122112191
+      enemy_large_brute_9: -4391966141434137531
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

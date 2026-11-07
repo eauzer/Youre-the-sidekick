@@ -1,0 +1,1185 @@
+fileFormatVersion: 2
+guid: 45fef8e03ff0ad141ac3b40972d46cc0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9094310234451040966
+    second: Ground_Blocks_64px_9x6_0
+  - first:
+      213: -4887287552209511349
+    second: Ground_Blocks_64px_9x6_1
+  - first:
+      213: 1942168618394779901
+    second: Ground_Blocks_64px_9x6_2
+  - first:
+      213: -5718961663484018472
+    second: Ground_Blocks_64px_9x6_3
+  - first:
+      213: 6119009633595382169
+    second: Ground_Blocks_64px_9x6_4
+  - first:
+      213: 4514562192971604203
+    second: Ground_Blocks_64px_9x6_5
+  - first:
+      213: 3159250667605697215
+    second: Ground_Blocks_64px_9x6_6
+  - first:
+      213: -2427473049311309911
+    second: Ground_Blocks_64px_9x6_7
+  - first:
+      213: 5018460587568005745
+    second: Ground_Blocks_64px_9x6_8
+  - first:
+      213: 2962261368060242699
+    second: Ground_Blocks_64px_9x6_9
+  - first:
+      213: -3893386323276049885
+    second: Ground_Blocks_64px_9x6_10
+  - first:
+      213: 1760612567708142102
+    second: Ground_Blocks_64px_9x6_11
+  - first:
+      213: -3674086750715334740
+    second: Ground_Blocks_64px_9x6_12
+  - first:
+      213: 6568584468292344743
+    second: Ground_Blocks_64px_9x6_13
+  - first:
+      213: 7169234681309805786
+    second: Ground_Blocks_64px_9x6_14
+  - first:
+      213: -1051085971208234026
+    second: Ground_Blocks_64px_9x6_15
+  - first:
+      213: 4720486509367776340
+    second: Ground_Blocks_64px_9x6_16
+  - first:
+      213: 5787753148173772716
+    second: Ground_Blocks_64px_9x6_17
+  - first:
+      213: -4430452684006726849
+    second: Ground_Blocks_64px_9x6_18
+  - first:
+      213: -4122798364445008744
+    second: Ground_Blocks_64px_9x6_19
+  - first:
+      213: 3165355247685007704
+    second: Ground_Blocks_64px_9x6_20
+  - first:
+      213: 2706095819398299587
+    second: Ground_Blocks_64px_9x6_21
+  - first:
+      213: 6893975172157604867
+    second: Ground_Blocks_64px_9x6_22
+  - first:
+      213: -4374661051981177995
+    second: Ground_Blocks_64px_9x6_23
+  - first:
+      213: 4986033440889846244
+    second: Ground_Blocks_64px_9x6_24
+  - first:
+      213: 2497257050783030585
+    second: Ground_Blocks_64px_9x6_25
+  - first:
+      213: -6116484861630158611
+    second: Ground_Blocks_64px_9x6_26
+  - first:
+      213: 2204611553987489070
+    second: Ground_Blocks_64px_9x6_27
+  - first:
+      213: -7657984959978527963
+    second: Ground_Blocks_64px_9x6_28
+  - first:
+      213: 8255191143668011678
+    second: Ground_Blocks_64px_9x6_29
+  - first:
+      213: -7500693353967400426
+    second: Ground_Blocks_64px_9x6_30
+  - first:
+      213: 7491047907015012298
+    second: Ground_Blocks_64px_9x6_31
+  - first:
+      213: 2481038939123895671
+    second: Ground_Blocks_64px_9x6_32
+  - first:
+      213: 5963015486657796087
+    second: Ground_Blocks_64px_9x6_33
+  - first:
+      213: -3674877458632178517
+    second: Ground_Blocks_64px_9x6_34
+  - first:
+      213: 1921524075948098884
+    second: Ground_Blocks_64px_9x6_35
+  - first:
+      213: 8169197783044230598
+    second: Ground_Blocks_64px_9x6_36
+  - first:
+      213: 7197616255323988916
+    second: Ground_Blocks_64px_9x6_37
+  - first:
+      213: -8607144808410301847
+    second: Ground_Blocks_64px_9x6_38
+  - first:
+      213: 8573876324823663301
+    second: Ground_Blocks_64px_9x6_39
+  - first:
+      213: -7764884905493748141
+    second: Ground_Blocks_64px_9x6_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35a85686058ac180800000000000000
+      internalID: -9094310234451040966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 255
+        width: 65
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c1d5f7ddddc2cb0800000000000000
+      internalID: -4887287552209511349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 255
+        width: 64
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df005518118f3fa10800000000000000
+      internalID: 1942168618394779901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 255
+        width: 65
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d045fbdaaa22a0b0800000000000000
+      internalID: -5718961663484018472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 255
+        width: 65
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99955a387d61be450800000000000000
+      internalID: 6119009633595382169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_5
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 255
+        width: 64
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be02b743562f6ae30800000000000000
+      internalID: 4514562192971604203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 255
+        width: 63
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2ad076eb9e7db20800000000000000
+      internalID: 3159250667605697215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_7
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 191
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af07f97f12ef4ed0800000000000000
+      internalID: -2427473049311309911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_8
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 255
+        width: 62
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1720a41c05725a540800000000000000
+      internalID: 5018460587568005745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 128
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0be71ff4011c1920800000000000000
+      internalID: 2962261368060242699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 191
+        width: 127
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32254cb54c9e7f9c0800000000000000
+      internalID: -3893386323276049885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 191
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a055d5dc3fe6810800000000000000
+      internalID: 1760612567708142102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_12
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 191
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafa4adf095030dc0800000000000000
+      internalID: -3674086750715334740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_13
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 191
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab96b5a5cc482b50800000000000000
+      internalID: 6568584468292344743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_14
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 191
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcb1ea55fc3e7360800000000000000
+      internalID: 7169234681309805786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 256
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db9cb9c0eac961f0800000000000000
+      internalID: -1051085971208234026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 254
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454d3e55879828140800000000000000
+      internalID: 4720486509367776340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_17
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 127
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7eb8cc2da325050800000000000000
+      internalID: 5787753148173772716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_18
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 66
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f336a97e1ced382c0800000000000000
+      internalID: -4430452684006726849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_19
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 127
+        width: 128
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c91b62bb0e8c6c0800000000000000
+      internalID: -4122798364445008744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 66
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859fe26b3d99deb20800000000000000
+      internalID: 3165355247685007704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_21
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 65
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfb76b6fcbfd8520800000000000000
+      internalID: 2706095819398299587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_22
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 127
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30401daa4e15caf50800000000000000
+      internalID: 6893975172157604867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_23
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 66
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bdcef73f41a43c0800000000000000
+      internalID: -4374661051981177995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_24
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 127
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e935725ff2f13540800000000000000
+      internalID: 4986033440889846244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_25
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 66
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d13c08e0a08a220800000000000000
+      internalID: 2497257050783030585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 254
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8ea74cc61ed1ba0800000000000000
+      internalID: -6116484861630158611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_27
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 7
+        width: 65
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d652f178a589e10800000000000000
+      internalID: 2204611553987489070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_28
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 7
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523223da04f59b590800000000000000
+      internalID: -7657984959978527963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_29
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 49
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9258477b94509270800000000000000
+      internalID: 8255191143668011678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_30
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 42
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ac3ab822f28e790800000000000000
+      internalID: -7500693353967400426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_31
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 47
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf2015d16c85f760800000000000000
+      internalID: 7491047907015012298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_32
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 45
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d446025cb6e6220800000000000000
+      internalID: 2481038939123895671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_33
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 42
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f71460edf2e0c250800000000000000
+      internalID: 5963015486657796087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_34
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 44
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba48325fb66300dc0800000000000000
+      internalID: -3674877458632178517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_35
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 46
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4454f3667ff9aaa10800000000000000
+      internalID: 1921524075948098884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_36
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 6
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd8246f912de5170800000000000000
+      internalID: 8169197783044230598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_37
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 7
+        width: 77
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3e92089d113e360800000000000000
+      internalID: 7197616255323988916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_38
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 8
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a3b5c36674d8880800000000000000
+      internalID: -8607144808410301847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_39
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 8
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c20f3157178cf670800000000000000
+      internalID: 8573876324823663301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Blocks_64px_9x6_40
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 7
+        width: 55
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356a04e81569d3490800000000000000
+      internalID: -7764884905493748141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ground_Blocks_64px_9x6_0: -9094310234451040966
+      Ground_Blocks_64px_9x6_1: -4887287552209511349
+      Ground_Blocks_64px_9x6_10: -3893386323276049885
+      Ground_Blocks_64px_9x6_11: 1760612567708142102
+      Ground_Blocks_64px_9x6_12: -3674086750715334740
+      Ground_Blocks_64px_9x6_13: 6568584468292344743
+      Ground_Blocks_64px_9x6_14: 7169234681309805786
+      Ground_Blocks_64px_9x6_15: -1051085971208234026
+      Ground_Blocks_64px_9x6_16: 4720486509367776340
+      Ground_Blocks_64px_9x6_17: 5787753148173772716
+      Ground_Blocks_64px_9x6_18: -4430452684006726849
+      Ground_Blocks_64px_9x6_19: -4122798364445008744
+      Ground_Blocks_64px_9x6_2: 1942168618394779901
+      Ground_Blocks_64px_9x6_20: 3165355247685007704
+      Ground_Blocks_64px_9x6_21: 2706095819398299587
+      Ground_Blocks_64px_9x6_22: 6893975172157604867
+      Ground_Blocks_64px_9x6_23: -4374661051981177995
+      Ground_Blocks_64px_9x6_24: 4986033440889846244
+      Ground_Blocks_64px_9x6_25: 2497257050783030585
+      Ground_Blocks_64px_9x6_26: -6116484861630158611
+      Ground_Blocks_64px_9x6_27: 2204611553987489070
+      Ground_Blocks_64px_9x6_28: -7657984959978527963
+      Ground_Blocks_64px_9x6_29: 8255191143668011678
+      Ground_Blocks_64px_9x6_3: -5718961663484018472
+      Ground_Blocks_64px_9x6_30: -7500693353967400426
+      Ground_Blocks_64px_9x6_31: 7491047907015012298
+      Ground_Blocks_64px_9x6_32: 2481038939123895671
+      Ground_Blocks_64px_9x6_33: 5963015486657796087
+      Ground_Blocks_64px_9x6_34: -3674877458632178517
+      Ground_Blocks_64px_9x6_35: 1921524075948098884
+      Ground_Blocks_64px_9x6_36: 8169197783044230598
+      Ground_Blocks_64px_9x6_37: 7197616255323988916
+      Ground_Blocks_64px_9x6_38: -8607144808410301847
+      Ground_Blocks_64px_9x6_39: 8573876324823663301
+      Ground_Blocks_64px_9x6_4: 6119009633595382169
+      Ground_Blocks_64px_9x6_40: -7764884905493748141
+      Ground_Blocks_64px_9x6_5: 4514562192971604203
+      Ground_Blocks_64px_9x6_6: 3159250667605697215
+      Ground_Blocks_64px_9x6_7: -2427473049311309911
+      Ground_Blocks_64px_9x6_8: 5018460587568005745
+      Ground_Blocks_64px_9x6_9: 2962261368060242699
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
