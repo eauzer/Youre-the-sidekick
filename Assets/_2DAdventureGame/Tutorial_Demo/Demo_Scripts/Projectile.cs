@@ -32,13 +32,19 @@ namespace Beginner2D
         }
 
         //called by the player controller after it instantiate a new projectile to launch it.
-        public void Launch(Vector2 direction, float force)
+        public void Launch(Vector2 direction, float force, Collider2D thrower = null)
         {
+            if (thrower != null)
+                Physics2D.IgnoreCollision(GetComponentInChildren<Collider2D>(), thrower);
+
             rigidbody2d.AddForce(direction * force);
         }
 
         void OnTriggerEnter2D(Collider2D other)
         {
+            if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
+                return;
+            Debug.Log($"other {other.gameObject.name}");
             Enemy enemy = other.GetComponent<Enemy>();
             if (enemy != null)
             {
@@ -49,6 +55,9 @@ namespace Beginner2D
     
         void OnCollisionEnter2D(Collision2D collision)
         {
+            if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
+                return;
+            Debug.Log($"collision {collision.gameObject.name}, layer: {LayerMask.LayerToName(collision.gameObject.layer)}");
             Destroy(gameObject);
         }
 
