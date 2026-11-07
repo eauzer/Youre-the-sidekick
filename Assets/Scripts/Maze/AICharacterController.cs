@@ -15,6 +15,10 @@ public class AICharacterController : MonoBehaviour
     [SerializeField, Min(0f)] private float blockedRepathDelay = 0.75f;
     [SerializeField, Min(1)] private int healthPoints = 3;
 
+    [Header("Animation")]
+    [SerializeField] private bool flipToFaceMovement = true;
+    [SerializeField] private bool spriteFacesRight = true;
+
     private Rigidbody2D body;
     private CircleCollider2D bodyCollider;
     private SpriteRenderer spriteRenderer;
@@ -44,10 +48,16 @@ public class AICharacterController : MonoBehaviour
 
         if (spriteRenderer.sprite == null)
         {
+            // No art assigned: use a blue square so the AI is still visible.
             CreatePlaceholderSprite();
+            spriteRenderer.color = new Color(0.2f, 0.45f, 1f, 1f);
+        }
+        else
+        {
+            // Real sprite: no tint, so the walk animation shows its true colors.
+            spriteRenderer.color = Color.white;
         }
 
-        spriteRenderer.color = new Color(0.2f, 0.45f, 1f, 1f);
         spriteRenderer.sortingOrder = 3;
     }
 
@@ -180,6 +190,9 @@ public class AICharacterController : MonoBehaviour
             body.position,
             destination,
             movementSpeed * Time.fixedDeltaTime);
+
+        FaceMovement(destination - body.position);
+
         body.MovePosition(nextPosition);
         movementWasRequested = remainingDistance > 0.02f;
 
@@ -201,6 +214,18 @@ public class AICharacterController : MonoBehaviour
             movementWasRequested = false;
             RequestPathToExit();
         }
+    }
+
+    // Flips the sprite left/right to match the direction of travel.
+    private void FaceMovement(Vector2 moveDelta)
+    {
+        if (!flipToFaceMovement || Mathf.Abs(moveDelta.x) < 0.01f)
+        {
+            return;
+        }
+
+        bool movingLeft = moveDelta.x < 0f;
+        spriteRenderer.flipX = spriteFacesRight ? movingLeft : !movingLeft;
     }
 
     private void ResolvePlayer()
