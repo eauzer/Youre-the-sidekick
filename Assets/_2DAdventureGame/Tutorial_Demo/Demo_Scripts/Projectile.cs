@@ -1,22 +1,22 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Beginner2D
 {
-    /// <summary>
-    /// Handle the projectile launched by the player to fix the robots.
-    /// </summary>
     public class Projectile : MonoBehaviour
     {
-        Rigidbody2D rigidbody2d;
-    
-        void Awake()
-        {
-            //DEMO purpose only. In the tutorial, this is set in the inspector on the prefab, but to keep the layer
-            //settings empty, we have to do it dynamically in the demo
-            Helpers.RecursiveLayerSet(transform, Helpers.ProjectileLayer);
+        [SerializeField, Min(0f)] private float damage = 25f;
 
+        private Rigidbody2D rigidbody2d;
+        private bool hitConsumed;
+
+        private void Awake()
+        {
+            Helpers.RecursiveLayerSet(transform, Helpers.ProjectileLayer);
             rigidbody2d = GetComponent<Rigidbody2D>();
+            if (rigidbody2d != null)
+            {
+                rigidbody2d.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+            }
         }
 
         private void OnEnable()
@@ -24,42 +24,67 @@ namespace Beginner2D
             Helpers.RecursiveLayerSet(transform, Helpers.ProjectileLayer);
         }
 
-        void Update()
+        private void Update()
         {
-            //destroy the projectile when it reach a distance of 1000.0f from the origin
-            if(transform.position.magnitude > 1000.0f)
+            if (transform.position.magnitude > 1000f)
+            {
                 Destroy(gameObject);
+            }
         }
 
-        //called by the player controller after it instantiate a new projectile to launch it.
         public void Launch(Vector2 direction, float force, Collider2D thrower = null)
         {
-            if (thrower != null)
-                Physics2D.IgnoreCollision(GetComponentInChildren<Collider2D>(), thrower);
-
-            rigidbody2d.AddForce(direction * force);
-        }
-
-        void OnTriggerEnter2D(Collider2D other)
-        {
-            if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
-                return;
-            Debug.Log($"other {other.gameObject.name}");
-            Enemy enemy = other.GetComponent<Enemy>();
-            if (enemy != null)
+            Collider2D projectileCollider = GetComponentInChildren<Collider2D>();
+            if (thrower != null && projectileCollider != null)
             {
-                enemy.Fix();
+                Physics2D.IgnoreCollision(projectileCollider, thrower);
             }
-            Destroy(gameObject);
-        }
-    
-        void OnCollisionEnter2D(Collision2D collision)
-        {
-            if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
-                return;
-            Debug.Log($"collision {collision.gameObject.name}, layer: {LayerMask.LayerToName(collision.gameObject.layer)}");
-            Destroy(gameObject);
+
+            if (rigidbody2d != null)
+            {
+                rigidbody2d.AddForce(direction * force);
+            }
         }
 
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            HandleImpact(other);
+        }
+
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            HandleImpact(collision.collider);
+        }
+
+        private void HandleImpact(Collider2D other)
+        {
+            if (hitConsumed || other == null)
+            {
+                return;
+            }
+
+            if (other.GetComponentInParent<global::PlayerHealth>() != null
+                || other.transform.root.CompareTag("Player"))
+            {
+                return;
+            }
+
+            hitConsumed = true;
+            global::Beginner2D.EnemyHealth enemyHealth = other.GetComponentInParent<global::Beginner2D.EnemyHealth>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(damage);
+            }
+            else
+            {
+                Enemy legacyEnemy = other.GetComponentInParent<Enemy>();
+                if (legacyEnemy != null)
+                {
+                    legacyEnemy.Fix();
+                }
+            }
+
+            Destroy(gameObject);
+        }
     }
 }

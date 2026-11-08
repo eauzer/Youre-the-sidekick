@@ -10,10 +10,12 @@ public class PlayerHealth : MonoBehaviour
     private float nextDamageTime = float.NegativeInfinity;
     private int lastDamageFrame = -1;
     private bool gameOverLocked;
+    private bool roundTransitionLocked;
 
     public float CurrentHealth => currentHealth;
     public float MaxHealth => maximumHealth;
     public bool IsDead => currentHealth <= 0f;
+    public float DamageImmunityDuration => Mathf.Max(0f, damageImmunityDuration);
 
     public event Action<float, float> HealthChanged;
     public event Action<PlayerHealth> Died;
@@ -27,6 +29,7 @@ public class PlayerHealth : MonoBehaviour
     public bool TakeDamage(float amount)
     {
         if (gameOverLocked
+            || roundTransitionLocked
             || IsDead
             || amount <= 0f
             || float.IsNaN(amount)
@@ -39,7 +42,7 @@ public class PlayerHealth : MonoBehaviour
 
         lastDamageFrame = Time.frameCount;
         currentHealth = Mathf.Max(0f, currentHealth - amount);
-        nextDamageTime = Time.unscaledTime + damageImmunityDuration;
+        nextDamageTime = Time.unscaledTime + DamageImmunityDuration;
         HealthChanged?.Invoke(currentHealth, maximumHealth);
 
         if (IsDead)
@@ -75,5 +78,20 @@ public class PlayerHealth : MonoBehaviour
     public void LockForGameOver()
     {
         gameOverLocked = true;
+    }
+
+    public void LockForRoundTransition()
+    {
+        roundTransitionLocked = true;
+    }
+
+    public void ResetForNewRound()
+    {
+        currentHealth = maximumHealth;
+        nextDamageTime = float.NegativeInfinity;
+        lastDamageFrame = -1;
+        gameOverLocked = false;
+        roundTransitionLocked = false;
+        HealthChanged?.Invoke(currentHealth, maximumHealth);
     }
 }

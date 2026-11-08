@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace Beginner2D
 {
+    [RequireComponent(typeof(Rigidbody2D), typeof(EnemyMazeNavigation))]
     public class FlyingEnemyAI : MonoBehaviour
     {
         [Header("Player Reference")]
@@ -19,6 +20,7 @@ namespace Beginner2D
         public GameObject projectilePrefab;
         public Transform firePoint;
         public float projectileSpeed = 8f;
+        [Min(0f)] public float projectileDamage = 15f;
         public int burstCount = 3;
         public float burstInterval = 0.15f;
         public float spreadAngle = 10f;
@@ -29,6 +31,21 @@ namespace Beginner2D
         float strafeTimer;
         float fireTimer;
         bool isFiring;
+        Rigidbody2D body;
+        EnemyMazeNavigation navigation;
+        EnemyHealth enemyHealth;
+        Vector2 movementTarget;
+        bool hasMovementTarget;
+
+        void Awake()
+        {
+            body = GetComponent<Rigidbody2D>();
+            navigation = GetComponent<EnemyMazeNavigation>();
+            enemyHealth = GetComponent<EnemyHealth>();
+            body.gravityScale = 0f;
+            body.freezeRotation = true;
+            body.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        }
 
         void Start()
         {
@@ -45,12 +62,21 @@ namespace Beginner2D
 
         void Update()
         {
-            if (player == null) return;
+            if (player == null || (enemyHealth != null && enemyHealth.IsDead)) return;
 
             FacePlayer();
-            Move();
+            ChooseMovementTarget();
             HandleStrafeReversal();
             HandleFiring();
+        }
+
+        void FixedUpdate()
+        {
+            if (player != null && navigation != null && hasMovementTarget
+                && (enemyHealth == null || !enemyHealth.IsDead))
+            {
+                navigation.TryMoveTowards(movementTarget, moveSpeed);
+            }
         }
 
         void FacePlayer()
@@ -60,7 +86,7 @@ namespace Beginner2D
             transform.rotation = Quaternion.Euler(0f, 0f, angle);
         }
 
-        void Move()
+        void ChooseMovementTarget()
         {
             Vector2 toPlayer = player.position - transform.position;
             float distance = toPlayer.magnitude;
@@ -74,7 +100,9 @@ namespace Beginner2D
             else if (distance < preferredDistanceMin)
                 moveDir -= dirToPlayer;
 
-            transform.position += (Vector3)(moveDir.normalized * moveSpeed * Time.deltaTime);
+            hasMovementTarget = moveDir.sqrMagnitude > 0.001f;
+            if (hasMovementTarget)
+                movementTarget = body.position + moveDir.normalized * Mathf.Max(1f, moveSpeed);
         }
 
         void HandleStrafeReversal()
@@ -115,7 +143,7 @@ namespace Beginner2D
 
         void FireProjectile()
         {
-            if (projectilePrefab == null || player == null) return;
+            if (projectilePrefab == null || player == null || (enemyHealth != null && enemyHealth.IsDead)) return;
 
             Vector2 spawnPos = firePoint != null ? firePoint.position : transform.position;
             Vector2 aimDir = ((Vector2)player.position - spawnPos).normalized;
@@ -127,9 +155,17 @@ namespace Beginner2D
             Vector2 fireDir = new Vector2(Mathf.Cos(finalAngle), Mathf.Sin(finalAngle));
 
             GameObject proj = Instantiate(projectilePrefab, spawnPos, Quaternion.identity);
+            EnemyProjectile enemyProjectile = proj.GetComponent<EnemyProjectile>();
+            if (enemyProjectile != null)
+                enemyProjectile.Initialize(GetComponentInChildren<Collider2D>(), projectileDamage);
+
             Rigidbody2D rb = proj.GetComponent<Rigidbody2D>();
             if (rb != null)
+            {
+                rb.gravityScale = 0f;
+                rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
                 rb.linearVelocity = fireDir * projectileSpeed;
+            }
         }
     }
 }

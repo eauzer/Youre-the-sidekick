@@ -15,6 +15,7 @@ public class MazeRenderer : MonoBehaviour
     [SerializeField] private int wallSortingOrder = 1;
 
     private Sprite fallbackSprite;
+    public bool IsRendered { get; private set; }
 
     private IEnumerator Start()
     {
@@ -53,6 +54,7 @@ public class MazeRenderer : MonoBehaviour
 
     public void RenderMaze()
     {
+        IsRendered = false;
         if (!TryGetMazeGenerator())
         {
             return;
@@ -121,6 +123,7 @@ public class MazeRenderer : MonoBehaviour
 
         Physics2D.SyncTransforms();
         ValidateGeneratedColliders();
+        IsRendered = true;
     }
 
     private bool IsOuterWall(int x, int y)
