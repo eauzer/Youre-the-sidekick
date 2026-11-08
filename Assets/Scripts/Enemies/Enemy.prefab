@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 611709148015702695}
   - component: {fileID: 719411138645924458}
   - component: {fileID: 7113346942369195323}
+  - component: {fileID: 790000000000000001}
+  - component: {fileID: 790000000000000002}
   m_Layer: 6
   m_Name: Enemy
   m_TagString: Untagged
@@ -123,7 +125,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &8430355865626376708
 BoxCollider2D:
@@ -155,11 +157,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.012663841, y: 0.5149325}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -169,7 +171,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.6629238, y: 1.175178}
+  m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
 --- !u!114 &611709148015702695
 MonoBehaviour:
@@ -186,8 +188,13 @@ MonoBehaviour:
   speed: 2
   vertical: 0
   changeTime: 3
-  detectionRadius: 5
-  chaseSpeed: 2.5
+  detectionRange: 5
+  movementSpeed: 2.5
+  attackRange: 0.8
+  attackCooldown: 1
+  aiAttackDamage: 1
+  playerAttackDamage: 15
+  targetRefreshInterval: 0.25
   fixedSound: {fileID: 8300000, guid: 4e356d8e36201c14da953082c4d569ab, type: 3}
 --- !u!82 &719411138645924458
 AudioSource:
@@ -400,3 +407,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &790000000000000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438136173140771368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2fe6d1f6c114a29bc4c1ccf6aa59d34, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  maximumHealth: 60
+  deathDelay: 0.2
+  deathAnimationTrigger:
+--- !u!114 &790000000000000002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438136173140771368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa34502d8d847bb8b4ed9bc5aa3a67e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mazeGenerator: {fileID: 0}
+  pathfinder: {fileID: 0}
+  pathRecalculateInterval: 0.4
+  waypointReachDistance: 0.04
+  blockedRepathDelay: 0.4

@@ -24,7 +24,7 @@ public class HealthUI : MonoBehaviour
     private TMP_Text playerHealthLabel;
     private GameObject gameOverOverlay;
     private TMP_Text gameOverReason;
-    private Button restartButton;
+    private Button mainMenuButton;
     private Sprite whiteSprite;
     private Sprite heartSprite;
     private Texture2D whiteTexture;
@@ -123,12 +123,6 @@ public class HealthUI : MonoBehaviour
     {
         gameOverReason.text = reason;
         gameOverOverlay.SetActive(true);
-    }
-
-    public void RestartCurrentScene()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private void EnsureCanvas()
@@ -256,20 +250,35 @@ public class HealthUI : MonoBehaviour
         reasonRect.sizeDelta = new Vector2(680f, 44f);
         gameOverReason = CreateText("Game Over Reason Text", reasonRect, 25f, TextAlignmentOptions.Center);
 
-        RectTransform buttonRect = CreateRect("Restart Button", overlayRect);
+        RectTransform buttonRect = CreateRect("Back to Main Menu Button", overlayRect);
         SetAnchors(buttonRect, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f));
         buttonRect.anchoredPosition = new Vector2(0f, -55f);
-        buttonRect.sizeDelta = new Vector2(220f, 54f);
+        buttonRect.sizeDelta = new Vector2(320f, 54f);
         Image buttonImage = SetImage(buttonRect.gameObject, new Color(0.62f, 0.12f, 0.16f, 1f), GetWhiteSprite());
-        restartButton = buttonRect.gameObject.AddComponent<Button>();
-        restartButton.targetGraphic = buttonImage;
-        restartButton.onClick.AddListener(RestartCurrentScene);
+        buttonImage.raycastTarget = true;
+        mainMenuButton = buttonRect.gameObject.AddComponent<Button>();
+        mainMenuButton.targetGraphic = buttonImage;
+        mainMenuButton.onClick.AddListener(BackToMainMenu);
 
-        RectTransform buttonLabelRect = CreateRect("Restart Label", buttonRect);
+        RectTransform buttonLabelRect = CreateRect("Back to Main Menu Label", buttonRect);
         SetAnchors(buttonLabelRect, Vector2.zero, Vector2.one, new Vector2(0.5f, 0.5f));
         buttonLabelRect.offsetMin = Vector2.zero;
         buttonLabelRect.offsetMax = Vector2.zero;
-        CreateText("Restart Text", buttonLabelRect, 23f, TextAlignmentOptions.Center).text = "RESTART";
+        CreateText("Back to Main Menu Text", buttonLabelRect, 21f, TextAlignmentOptions.Center).text = "Back to Main Menu";
+    }
+
+    private void BackToMainMenu()
+    {
+        GameOverManager manager = GetComponent<GameOverManager>();
+        if (manager != null)
+        {
+            manager.BackToMainMenu();
+        }
+        else
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("Assets/Scenes/WelcomeScreen.unity");
+        }
     }
 
     private void UpdateAIHealth(int current, int maximum)

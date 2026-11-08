@@ -1,8 +1,8 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Beginner2D
 {
+    [RequireComponent(typeof(Rigidbody2D), typeof(EnemyMazeNavigation))]
     public class GroundEnemyAI : MonoBehaviour
     {
         [Header("Player Reference")]
@@ -18,16 +18,25 @@ namespace Beginner2D
 
         [Header("Combat")]
         public int contactDamage = 1;
+        [Min(0.05f)] public float contactAttackCooldown = 1f;
 
         Rigidbody2D rb;
-        List<Vector3> path;
-        int currentWaypoint;
-        float pathTimer;
+        EnemyMazeNavigation navigation;
+        EnemyHealth enemyHealth;
+        float nextAttackTime;
+
+        void Awake()
+        {
+            rb = GetComponent<Rigidbody2D>();
+            navigation = GetComponent<EnemyMazeNavigation>();
+            enemyHealth = GetComponent<EnemyHealth>();
+            rb.gravityScale = 0f;
+            rb.freezeRotation = true;
+            rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        }
 
         void Start()
         {
-            rb = GetComponent<Rigidbody2D>();
-
             if (player == null)
             {
                 GameObject playerObj = GameObject.FindWithTag("Player");
@@ -37,55 +46,47 @@ namespace Beginner2D
 
             if (pathfinder == null)
                 pathfinder = MazePathfinder.Instance;
-
-            pathTimer = 0f;
-        }
-
-        void Update()
-        {
-            if (player == null || pathfinder == null) return;
-
-            pathTimer -= Time.deltaTime;
-            if (pathTimer <= 0f)
-            {
-                RecalculatePath();
-                pathTimer = pathRecalculateInterval;
-            }
         }
 
         void FixedUpdate()
         {
-            if (path == null || currentWaypoint >= path.Count) return;
-
-            Vector2 target = path[currentWaypoint];
-            Vector2 current = rb.position;
-            Vector2 direction = (target - current);
-            float distance = direction.magnitude;
-
-            if (distance <= waypointReachDistance)
+            if (player == null || navigation == null || (enemyHealth != null && enemyHealth.IsDead))
             {
-                currentWaypoint++;
                 return;
             }
-
-            Vector2 move = direction.normalized * moveSpeed * Time.deltaTime;
-            if (move.magnitude > distance)
-                move = direction;
-
-            rb.MovePosition(current + move);
-        }
-
-        void RecalculatePath()
-        {
-            path = pathfinder.FindPath(transform.position, player.position);
-            currentWaypoint = path != null && path.Count > 1 ? 1 : 0;
+            navigation.TryMoveTowards(player.position, moveSpeed);
         }
 
         void OnTriggerEnter2D(Collider2D other)
         {
-            PlayerController playerController = other.GetComponent<PlayerController>();
-            if (playerController != null)
-                playerController.ChangeHealth(-contactDamage);
+            TryDamagePlayer(other);
+        }
+
+        void OnTriggerStay2D(Collider2D other)
+        {
+            TryDamagePlayer(other);
+        }
+
+        void OnCollisionStay2D(Collision2D collision)
+        {
+            TryDamagePlayer(collision.collider);
+        }
+
+        void TryDamagePlayer(Collider2D other)
+        {
+            if (Time.time < nextAttackTime || (enemyHealth != null && enemyHealth.IsDead))
+                return;
+
+            PlayerHealth playerHealth = other.GetComponentInParent<PlayerHealth>();
+            if (playerHealth == null || playerHealth.IsDead)
+                return;
+
+            Vector2 closestPoint = other.ClosestPoint(rb.position);
+            if (Vector2.Distance(rb.position, closestPoint) > waypointReachDistance + 0.75f)
+                return;
+
+            if (playerHealth.TakeDamage(contactDamage))
+                nextAttackTime = Time.time + contactAttackCooldown;
         }
     }
 }

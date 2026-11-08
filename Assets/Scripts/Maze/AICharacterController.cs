@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -31,10 +32,13 @@ public class AICharacterController : MonoBehaviour
     private bool movementWasRequested;
     private float retryPathTimer;
     private bool warnedMissingPlayer;
+    private bool roundTransitionPaused;
+    private bool exitEventRaised;
     private Sprite placeholderSprite;
     private Texture2D placeholderTexture;
 
     public int HealthPoints => healthPoints;
+    public event Action ReachedExit;
 
     private void Awake()
     {
@@ -145,7 +149,7 @@ public class AICharacterController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (mazeGenerator == null || reachedExit || waitingForPlayer)
+        if (mazeGenerator == null || reachedExit || waitingForPlayer || roundTransitionPaused)
         {
             return;
         }
@@ -205,7 +209,7 @@ public class AICharacterController : MonoBehaviour
 
             if (nextCell == mazeGenerator.ExitPosition)
             {
-                reachedExit = true;
+                MarkReachedExit();
             }
         }
         else if (blockedDuration >= blockedRepathDelay)
@@ -309,7 +313,7 @@ public class AICharacterController : MonoBehaviour
 
     private void RequestPathToExit()
     {
-        Vector2Int currentCell = WorldToGrid(body.position);
+        Vector2Int currentCell = mazeGenerator.WorldToGrid(body.position);
         if (!mazeGenerator.IsWalkable(currentCell))
         {
             currentCell = mazeGenerator.StartPosition;
@@ -321,18 +325,54 @@ public class AICharacterController : MonoBehaviour
 
         if (path.Count == 1 && currentCell == mazeGenerator.ExitPosition)
         {
-            reachedExit = true;
+            MarkReachedExit();
         }
     }
 
-    private Vector2Int WorldToGrid(Vector2 worldPosition)
+    private void MarkReachedExit()
     {
-        float cellSize = Mathf.Max(mazeGenerator.CellSize, 0.0001f);
-        float gridX = (worldPosition.x - mazeGenerator.transform.position.x) / cellSize
-            + (mazeGenerator.Width - 1) * 0.5f;
-        float gridY = (worldPosition.y - mazeGenerator.transform.position.y) / cellSize
-            + (mazeGenerator.Height - 1) * 0.5f;
-        return new Vector2Int(Mathf.RoundToInt(gridX), Mathf.RoundToInt(gridY));
+        if (exitEventRaised)
+        {
+            return;
+        }
+
+        exitEventRaised = true;
+        reachedExit = true;
+        body.linearVelocity = Vector2.zero;
+        ReachedExit?.Invoke();
+    }
+
+    public void PauseForRoundTransition()
+    {
+        roundTransitionPaused = true;
+        if (body != null)
+        {
+            body.linearVelocity = Vector2.zero;
+        }
+    }
+
+    public void ResetForNewRound(Vector2 spawnPosition)
+    {
+        if (body == null)
+        {
+            body = GetComponent<Rigidbody2D>();
+        }
+
+        enabled = true;
+        roundTransitionPaused = false;
+        reachedExit = false;
+        exitEventRaised = false;
+        waitingForPlayer = false;
+        blockedDuration = 0f;
+        movementWasRequested = false;
+        retryPathTimer = 0f;
+        path.Clear();
+        nextPathIndex = 0;
+        body.linearVelocity = Vector2.zero;
+        body.position = spawnPosition;
+        transform.position = new Vector3(spawnPosition.x, spawnPosition.y, mazeGenerator.transform.position.z);
+        lastObservedPosition = spawnPosition;
+        RequestPathToExit();
     }
 
     private void CreatePlaceholderSprite()
