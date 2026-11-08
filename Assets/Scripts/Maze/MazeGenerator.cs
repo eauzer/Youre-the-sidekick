@@ -13,6 +13,21 @@ public class MazeGenerator : MonoBehaviour
     [SerializeField, Min(0)] private int smallCombatRoomCount = 4;
     [SerializeField, Min(0)] private int regularCombatRoomCount = 3;
 
+    [Header("Enemies")]
+    [SerializeField] private bool spawnEnemies = true;
+    [Tooltip("Enemy prefabs to spawn. One is picked at random for each enemy, so add several types here later.")]
+    [SerializeField] private GameObject[] enemyPrefabs;
+    [Tooltip("Enemies placed inside each combat room (including the exit room).")]
+    [SerializeField, Min(0)] private int enemiesPerRoom = 2;
+    [Tooltip("Extra enemies placed in the corridors outside of rooms.")]
+    [SerializeField, Min(0)] private int corridorEnemyCount = 6;
+    [Tooltip("Enemies never spawn closer than this many grid cells to the start, so the hero and player get a safe start.")]
+    [SerializeField, Min(0f)] private float minEnemyDistanceFromStart = 15f;
+    [Tooltip("Minimum grid cells between two enemies, so they don't spawn in a clump.")]
+    [SerializeField, Min(0f)] private float minEnemySpacing = 4f;
+    [Tooltip("Added to each enemy sprite's Order in Layer so enemies always draw above the floor and walls.")]
+    [SerializeField] private int enemySortingOrder = 10;
+
     public bool[,] WalkableGrid { get; private set; } = new bool[0, 0];
     public Vector2Int StartPosition { get; private set; }
     public Vector2Int ExitPosition { get; private set; }
@@ -20,6 +35,11 @@ public class MazeGenerator : MonoBehaviour
     public int Height => WalkableGrid.GetLength(1);
     public float CellSize => cellSize;
     public int UsedSeed { get; private set; }
+    public IReadOnlyList<GameObject> SpawnedEnemies => spawnedEnemies;
+
+    private readonly List<RectInt> roomBounds = new List<RectInt>();
+    private readonly List<GameObject> spawnedEnemies = new List<GameObject>();
+    private Transform enemyContainer;
 
     private void Start()
     {
@@ -86,6 +106,8 @@ public class MazeGenerator : MonoBehaviour
         {
             Debug.LogError("Generated maze contains disconnected walkable areas.", this);
         }
+
+        SpawnEnemies(random);
     }
 
     public bool IsWalkable(Vector2Int position)
@@ -239,6 +261,7 @@ public class MazeGenerator : MonoBehaviour
     private void CarveRooms(int corridorScale, System.Random random)
     {
         bool[,] reservedRoomCells = new bool[Width, Height];
+        roomBounds.Clear();
 
         // Anchor the final combat room on the exit so it is reachable and contains the goal.
         TryCarveRoom(ExitPosition, 10, reservedRoomCells);
@@ -328,7 +351,135 @@ public class MazeGenerator : MonoBehaviour
             }
         }
 
+        roomBounds.Add(new RectInt(startX, startY, roomWidth, roomHeight));
         return true;
+    }
+
+    // ---------------- Enemy spawning ----------------
+
+    private void SpawnEnemies(System.Random random)
+    {
+        ClearEnemies();
+
+        if (!spawnEnemies)
+        {
+            return;
+        }
+
+        if (enemyPrefabs == null || enemyPrefabs.Length == 0)
+        {
+            Debug.LogWarning("MazeGenerator has no enemy prefabs assigned, so no enemies were spawned.", this);
+            return;
+        }
+
+        enemyContainer = new GameObject("Enemies").transform;
+        enemyContainer.SetParent(transform, false);
+
+        List<Vector2Int> placed = new List<Vector2Int>();
+
+        // 1) Enemies inside the combat rooms.
+        List<RectInt> rooms = new List<RectInt>(roomBounds);
+        Shuffle(rooms, random);
+        foreach (RectInt room in rooms)
+        {
+            int spawned = 0;
+            for (int attempt = 0; attempt < 20 && spawned < enemiesPerRoom; attempt++)
+            {
+                Vector2Int cell = new Vector2Int(
+                    random.Next(room.xMin, room.xMax),
+                    random.Next(room.yMin, room.yMax));
+
+                if (TryPlaceEnemy(cell, placed, random))
+                {
+                    spawned++;
+                }
+            }
+        }
+
+        // 2) Enemies in the corridors (cells that are not inside any room).
+        List<Vector2Int> walkable = GetWalkablePositions();
+        Shuffle(walkable, random);
+        int corridorPlaced = 0;
+        foreach (Vector2Int cell in walkable)
+        {
+            if (corridorPlaced >= corridorEnemyCount)
+            {
+                break;
+            }
+
+            if (IsInsideAnyRoom(cell))
+            {
+                continue;
+            }
+
+            if (TryPlaceEnemy(cell, placed, random))
+            {
+                corridorPlaced++;
+            }
+        }
+
+        Debug.Log($"MazeGenerator spawned {spawnedEnemies.Count} enemies across {roomBounds.Count} rooms and the hallways.", this);
+    }
+
+    private bool TryPlaceEnemy(Vector2Int cell, List<Vector2Int> placed, System.Random random)
+    {
+        if (!IsWalkable(cell))
+        {
+            return false;
+        }
+
+        if (Vector2Int.Distance(cell, StartPosition) < minEnemyDistanceFromStart)
+        {
+            return false;
+        }
+
+        foreach (Vector2Int other in placed)
+        {
+            if (Vector2Int.Distance(cell, other) < minEnemySpacing)
+            {
+                return false;
+            }
+        }
+
+        GameObject prefab = enemyPrefabs[random.Next(enemyPrefabs.Length)];
+        if (prefab == null)
+        {
+            return false;
+        }
+
+        GameObject enemy = Instantiate(prefab, GridToWorld(cell), Quaternion.identity, enemyContainer);
+        foreach (SpriteRenderer sprite in enemy.GetComponentsInChildren<SpriteRenderer>(true))
+        {
+            sprite.sortingOrder += enemySortingOrder;
+        }
+
+        spawnedEnemies.Add(enemy);
+        placed.Add(cell);
+        return true;
+    }
+
+    private bool IsInsideAnyRoom(Vector2Int cell)
+    {
+        foreach (RectInt room in roomBounds)
+        {
+            if (room.Contains(cell))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private void ClearEnemies()
+    {
+        if (enemyContainer != null)
+        {
+            Destroy(enemyContainer.gameObject);
+            enemyContainer = null;
+        }
+
+        spawnedEnemies.Clear();
     }
 
     private static void Shuffle<T>(IList<T> items, System.Random random)

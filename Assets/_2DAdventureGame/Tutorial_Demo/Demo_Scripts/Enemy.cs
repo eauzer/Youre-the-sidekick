@@ -4,14 +4,14 @@ using UnityEngine;
 namespace Beginner2D
 {
 	/// <summary>
-	/// This class handle Enemy behaviour. It make them walk back & forth as long as they aren't fixed, and then just idle
-	/// without being able to interact with the player anymore once fixed.
+	/// Enemy behaviour. Patrols back & forth until the player (on the Player layer) enters its detection radius,
+	/// then chases the player. Once fixed, it just idles.
 	/// </summary>
 	public class Enemy : MonoBehaviour
 	{
 		// ====== ENEMY MOVEMENT ========
 		public float speed;
-	
+
 		public bool vertical;
 
 		public float changeTime = 3.0f;
@@ -19,16 +19,19 @@ namespace Beginner2D
 		float timer;
 		int direction = 1;
 		bool broken = true;
+
+		// ====== DETECTION & CHASE ========
+		[Header("Detection / Chase")]
+		public float detectionRadius = 5f;
+		public float chaseSpeed = 2.5f;
+		Transform target;
+
 		// ===== ANIMATION ========
 		Animator animator;
 
 		// ====== AUDIO ========
 		AudioSource audioSource;
 		public AudioClip fixedSound;
-	
-		// ====== PARTICLE EFFECTS ========
-		public ParticleSystem smokeParticleEffect;
-		public ParticleSystem fixedParticleEffect;
 
 		// ====== BREAKING AND FIXING =======
 		public bool isBroken { get { return broken; }}
@@ -48,17 +51,32 @@ namespace Beginner2D
 			audioSource = GetComponent<AudioSource>();
 			timer = changeTime;
 		}
-	
+
 		void Update()
 		{
 			timer -= Time.deltaTime;
-
 
 			if (timer < 0)
 			{
 				direction = -direction;
 				timer = changeTime;
 			}
+
+			if (broken)
+			{
+				DetectPlayer();
+			}
+		}
+
+		// Looks for anything on the Player layer inside the detection radius.
+		void DetectPlayer()
+		{
+			Collider2D hit = Physics2D.OverlapCircle(
+				transform.position,
+				detectionRadius,
+				1 << Helpers.PlayerLayer);
+
+			target = hit != null ? hit.transform : null;
 		}
 
 		void FixedUpdate()
@@ -67,10 +85,18 @@ namespace Beginner2D
 			{
 				return;
 			}
-           
+
 			Vector2 position = rigidbody2d.position;
-		
-			if (vertical)
+
+			if (target != null)
+			{
+				// Chase the player
+				Vector2 toTarget = ((Vector2)target.position - position).normalized;
+				position += toTarget * chaseSpeed * Time.deltaTime;
+				animator.SetFloat("Move X", toTarget.x);
+				animator.SetFloat("Move Y", toTarget.y);
+			}
+			else if (vertical)
 			{
 				position.y = position.y + speed * direction * Time.deltaTime;
 				animator.SetFloat("Move X", 0);
@@ -82,35 +108,39 @@ namespace Beginner2D
 				animator.SetFloat("Move X", direction);
 				animator.SetFloat("Move Y", 0);
 			}
-			
+
 			rigidbody2d.MovePosition(position);
 		}
-		
-		void OnTriggerEnter2D(Collider2D other)
-		{
-			PlayerController player = other.gameObject.GetComponent<PlayerController>();
 
-			if (player != null)
+		void OnCollisionEnter2D(Collision2D collision)
+		{
+			if (!broken || collision.gameObject.layer != Helpers.PlayerLayer)
 			{
-				player.ChangeHealth(-1);
+				return;
 			}
+
+			// TODO: damage the player here once the health system exists,
+			// e.g. collision.gameObject.GetComponentInParent<...>().TakeDamage(1);
 		}
 
 		public void Fix()
 		{
 			broken = false;
+			target = null;
 			rigidbody2d.simulated = false;
 			animator.SetTrigger("Fixed");
 
 			// Audio
 			audioSource.Stop();
 			audioSource.PlayOneShot(fixedSound);
-
-			//Particles
-			smokeParticleEffect.Stop();
-			Instantiate(fixedParticleEffect, transform.position + Vector3.up * 0.5f, Quaternion.identity);
-
 			OnFixed?.Invoke();
+		}
+
+		// Shows the detection radius in the Scene view when the enemy is selected.
+		void OnDrawGizmosSelected()
+		{
+			Gizmos.color = Color.red;
+			Gizmos.DrawWireSphere(transform.position, detectionRadius);
 		}
 	}
 }
