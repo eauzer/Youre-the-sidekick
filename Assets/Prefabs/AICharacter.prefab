@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 8529660509184152329}
   - component: {fileID: 1472142091037251635}
   - component: {fileID: 273629949749187070}
+  - component: {fileID: 6600000000000000001}
   m_Layer: 0
   m_Name: AICharacter
   m_TagString: Untagged
@@ -334,3 +335,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6600000000000000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494559535928953860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f34fb74f8b4ef7a3433d7811aa418a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  damageImmunityDuration: 1
